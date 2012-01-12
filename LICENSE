@@ -1,0 +1,100 @@
+Introduction
+Open Source Hardware (OSHW) is a term for tangible artifacts --
+machines, devices, or other physical things -- whose design has been released
+to the public in such a way that anyone can make, modify, distribute, and use
+those things. This definition is intended to help provide guidelines for the
+development and evaluation of licenses for Open Source Hardware. Hardware is
+different from software in that physical resources must always be committed
+for the creation of physical goods. Accordingly, persons or companies
+producing items ("products") under an OSHW license have an obligation to make
+it clear that such products are not manufactured, sold, warrantied, or
+otherwise sanctioned by the original designer and also not to make use of any
+trademarks owned by the original designer. The distribution terms of Open
+Source Hardware must comply with the following criteria:
+
+1. Documentation
+The hardware must be released with documentation including design files, and
+must allow modification and distribution of the design files. Where
+documentation is not furnished with the physical product, there must be a
+well-publicized means of obtaining this documentation for no more than a
+reasonable reproduction cost, preferably downloading via the Internet without
+charge. The documentation must include design files in the preferred format
+for making changes, for example the native file format of a CAD program.
+Deliberately obfuscated design files are not allowed. Intermediate forms
+analogous to compiled computer code -- such as printer-ready copper artwork
+from a CAD program -- are not allowed as substitutes. The license may require
+that the design files are provided in fully-documented, open format(s).
+
+2. Scope
+The documentation for the hardware must clearly specify what portion of the
+design, if not all, is being released under the license.
+
+3. Necessary Software
+If the licensed design requires software, embedded or otherwise, to operate
+properly and fulfill its essential functions, then the license may require
+that one of the following conditions are met: a) The interfaces are
+sufficiently documented such that it could reasonably be considered
+straightforward to write open source software that allows the device to
+operate properly and fulfill its essential functions. For example, this may
+include the use of detailed signal timing diagrams or pseudocode to clearly
+illustrate the interface in operation. b) The necessary software is released
+under an OSI-approved open source license.
+
+4. Derived Works
+The license shall allow modifications and derived works, and shall allow them
+to be distributed under the same terms as the license of the original work.
+The license shall allow for the manufacture, sale, distribution, and use of
+products created from the design files, the design files themselves, and
+derivatives therof.
+
+5. Free redistribution
+The license shall not restrict any party from selling or giving away the
+project documentation. The license shall not require a royalty or other fee
+for such sale. The license shall not require any royalty or fee related to the
+sale of derived works.
+
+6. Attribution
+The license may require derived documents, and copyright notices associated
+with devices, to provide attribution to the licensors when distributing design
+files, manufactured products, and/or derivatives thereof. The license may
+require that this information be accessible to the end-user using the device
+normally, but shall not specify a specific format of display. The license may
+require derived works to carry a different name or version number from the
+original design.
+
+7. No Discrimination Against Persons or Groups
+The license must not discriminate against any person or group of persons.
+
+8. No Discrimination Against Fields of Endeavor
+The license must not restrict anyone from making use of the work (including
+manufactured hardware) in a specific field of endeavor. For example, it must
+not restrict the hardware from being used in a business, or from being used in
+nuclear research.
+
+9. Distribution of License
+The rights granted by the license must apply to all to whom the work is
+redistributed without the need for execution of an additional license by those
+parties.
+
+10. License Must Not Be Specific to a Product
+The rights granted by the license must not depend on the licensed work being
+part of a particular product. If a portion is extracted from a work and used
+or distributed within the terms of the license, all parties to whom that work
+is redistributed should have the same rights as those that are granted for the
+original work.
+
+11. License Must Not Restrict Other Hardware or Software
+The license must not place restrictions on other items that are aggregated
+with the licensed work but not derivative of it. For example, the license must
+not insist that all other hardware sold with the licensed item be open source,
+nor that only open source software be used external to the device.
+
+12. License Must Be Technology-Neutral
+No provision of the license may be predicated on any individual technology,
+specific part or component, material, or style of interface or use thereof.
+
+Afterword
+The signatories of this Open Source Hardware definition recognize
+that the open source movement represents only one way of sharing information.
+We encourage and support all forms of openness and collaboration, whether or
+not they fit this definition.
