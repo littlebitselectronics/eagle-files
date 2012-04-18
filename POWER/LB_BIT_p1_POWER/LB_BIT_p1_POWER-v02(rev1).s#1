@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6146,7 +6146,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="P1F1" library="SparkFun" deviceset="PTC" device="SMD" value="500mA PTC"/>
 <part name="P1IC1" library="SparkFun" deviceset="V_REG_LM1117" device="SOT223"/>
 <part name="P1R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="720"/>
-<part name="P1R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="240"/>
+<part name="P1240" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="R2"/>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="abes" deviceset="FIDUCIAL" device="1X2.5"/>
@@ -6182,7 +6182,7 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="P1F1" gate="G$1" x="129.54" y="111.76"/>
 <instance part="P1IC1" gate="G$1" x="104.14" y="111.76"/>
 <instance part="P1R3" gate="G$1" x="104.14" y="88.9" rot="R90"/>
-<instance part="P1R2" gate="G$1" x="119.38" y="104.14" rot="R90"/>
+<instance part="P1240" gate="G$1" x="119.38" y="104.14" rot="R90"/>
 <instance part="P+2" gate="1" x="167.64" y="119.38"/>
 <instance part="GND7" gate="1" x="104.14" y="78.74"/>
 <instance part="JP1" gate="G$1" x="157.48" y="27.94"/>
@@ -6281,7 +6281,7 @@ Various fiducial points for machine vision alignment.</description>
 <pinref part="P1F1" gate="G$1" pin="1"/>
 <pinref part="P1IC1" gate="G$1" pin="OUT"/>
 <pinref part="P1IC1" gate="G$1" pin="OUT@1"/>
-<pinref part="P1R2" gate="G$1" pin="2"/>
+<pinref part="P1240" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -6316,7 +6316,7 @@ Various fiducial points for machine vision alignment.</description>
 <wire x1="104.14" y1="96.52" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="96.52" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <junction x="104.14" y="96.52"/>
-<pinref part="P1R2" gate="G$1" pin="1"/>
+<pinref part="P1240" gate="G$1" pin="1"/>
 <pinref part="P1IC1" gate="G$1" pin="ADJ"/>
 <pinref part="P1R3" gate="G$1" pin="2"/>
 </segment>

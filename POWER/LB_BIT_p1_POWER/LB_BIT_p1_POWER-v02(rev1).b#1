@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -733,7 +733,7 @@ design rules under a new name.</description>
 <element name="P1F1" library="SparkFun" package="PTC-1206" value="500mA PTC" x="13.97" y="15.24"/>
 <element name="P1IC1" library="SparkFun" package="SOT223" value="" x="7.62" y="24.13" rot="R180"/>
 <element name="P1R3" library="SparkFun" package="0603-RES" value="720" x="10.795" y="29.21" rot="R180"/>
-<element name="P1R2" library="SparkFun" package="0603-RES" value="240" x="3.81" y="29.21" rot="R180"/>
+<element name="P1240" library="SparkFun" package="0603-RES" value="R2" x="3.81" y="29.21" rot="R180"/>
 <element name="JP1" library="abes" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="1.27" y="1.27"/>
 <element name="JP2" library="abes" package="FIDUCIAL-1X2.5" value="FIDUCIAL1X2.5" x="29.21" y="29.21"/>
 <element name="U$3" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-8.89" y="-10.16"/>
@@ -825,7 +825,7 @@ design rules under a new name.</description>
 <contactref element="P1F1" pad="1"/>
 <contactref element="P1IC1" pad="2"/>
 <contactref element="P1IC1" pad="4"/>
-<contactref element="P1R2" pad="2"/>
+<contactref element="P1240" pad="2"/>
 <wire x1="10.719" y1="21.031" x2="7.62" y2="21.031" width="1.016" layer="1"/>
 <wire x1="12.57" y1="15.24" x2="12.57" y2="19.18" width="1.016" layer="1"/>
 <wire x1="12.57" y1="19.18" x2="10.719" y2="21.031" width="1.016" layer="1"/>
@@ -859,7 +859,7 @@ design rules under a new name.</description>
 <wire x1="19.05" y1="8.89" x2="18.249" y2="8.89" width="1.016" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="P1R2" pad="1"/>
+<contactref element="P1240" pad="1"/>
 <contactref element="P1IC1" pad="1"/>
 <contactref element="P1R3" pad="2"/>
 <wire x1="4.66" y1="29.21" x2="9.945" y2="29.21" width="1.016" layer="1"/>
