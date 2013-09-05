@@ -2925,7 +2925,7 @@ design rules under a new name.</description>
 <contactref element="W2U1" pad="2"/>
 <polygon width="0.2032" layer="16" isolate="0.3048">
 <vertex x="-2.6825" y="45.7425"/>
-<vertex x="23.0525" y="45.7425"/>
+<vertex x="-2.6325" y="45.7425"/>
 <vertex x="-2.6325" y="0.1175"/>
 </polygon>
 <contactref element="W2BSM" pad="GND1"/>
