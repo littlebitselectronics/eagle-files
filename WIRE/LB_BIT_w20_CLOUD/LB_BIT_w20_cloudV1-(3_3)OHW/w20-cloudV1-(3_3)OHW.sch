@@ -4153,13 +4153,6 @@ pads 1.5 x 0.2 mm</description>
 <text x="-6" y="-9.8" size="1.27" layer="25" ratio="20">&gt;NAME</text>
 <text x="-6" y="-11.3" size="1.27" layer="27" ratio="20">&gt;VALUE</text>
 </package>
-<package name="LB_CREDITS_V2">
-<text x="-16.51" y="8.89" size="1.27" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-5.08" y="6.985" size="1.27" layer="27">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-7.62" y="5.08" size="1.27" layer="27">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-1.905" y="3.175" size="1.27" layer="27">http://freedomdefined.org/OSHW</text>
-<text x="1.27" y="1.27" size="1.27" layer="27">Designed by: littleBits.cc</text>
-</package>
 <package name="RES-0402">
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -4179,8 +4172,8 @@ pads 1.5 x 0.2 mm</description>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-147.22" y1="-75.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-75.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-75.54" x2="72.49" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-75.54" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-71.73" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
@@ -4229,12 +4222,12 @@ pads 1.5 x 0.2 mm</description>
 <text x="-17.68" y="-55.22" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
 <wire x1="24.23" y1="-48.87" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
 <text x="53.44" y="-51.41" size="1.27" layer="50">+/- .127mm</text>
-<text x="-130.22" y="-62.54" size="1.778" layer="50">60 East 11th Street</text>
-<text x="-130.22" y="-58.54" size="3" layer="50">littleBits, Inc.</text>
-<text x="-130.22" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
-<text x="-130.22" y="-66.54" size="1.778" layer="50">New York, NY, 10003, USA</text>
-<wire x1="-147.22" y1="-51.54" x2="-91.22" y2="-51.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-51.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
+<text x="-137.84" y="-62.54" size="1.778" layer="50">601 West 26th Street</text>
+<text x="-145.46" y="-58.54" size="2.1844" layer="50">littleBits Electronics, Inc.</text>
+<text x="-137.84" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
+<text x="-141.65" y="-66.54" size="1.778" layer="50">New York, NY, 10001, USA</text>
+<wire x1="-147.22" y1="-51.54" x2="-97.57" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-51.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
 <text x="-12.6" y="-43.79" size="1.27" layer="50">&gt;DRAWING_NAME</text>
 <wire x1="-18.95" y1="-64.11" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-60.3" x2="20.46" y2="-60.3" width="0.2" layer="50"/>
@@ -4248,6 +4241,13 @@ pads 1.5 x 0.2 mm</description>
 <text x="22.96" y="-66.65" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
+</package>
+<package name="OSHWCREDIT">
+<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
+Statement of Principles by making the circuit designs for its 
+modules available pursuant to the CERN Hardware License, 
+Version 1.2</text>
 </package>
 </packages>
 <symbols>
@@ -4537,13 +4537,6 @@ pads 1.5 x 0.2 mm</description>
 <text x="-25.4" y="115.57" size="1.778" layer="95">&gt;NAME</text>
 <text x="-25.4" y="-127" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
-<symbol name="LB_CREDITS_V2">
-<text x="-10.16" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-2.54" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-22.86" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-7.62" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc</text>
-</symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
 <wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
@@ -4595,6 +4588,12 @@ pads 1.5 x 0.2 mm</description>
 <wire x1="86.36" y1="12.7" x2="86.36" y2="5.08" width="0.254" layer="94"/>
 <wire x1="86.36" y1="5.08" x2="86.36" y2="25.4" width="0.254" layer="94"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="OSHWCREDIT">
+<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
+Statement of Principles by making the circuit designs for its
+modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5487,18 +5486,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="LB_CREDITS_V2">
-<gates>
-<gate name="G$1" symbol="LB_CREDITS_V2" x="-2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="LB_CREDITS_V2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FRAME-LETTER-OHW">
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -5506,6 +5493,18 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </gates>
 <devices>
 <device name="OHW" package="FABDWG01-OHW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSHWCREDIT">
+<gates>
+<gate name="G$1" symbol="OSHWCREDIT" x="-12.7" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="OSHWCREDIT">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9376,9 +9375,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C41" library="LITTLEBITS" deviceset="CAP" device="CAP-0402" value="82p"/>
 <part name="C42" library="LITTLEBITS" deviceset="CAP" device="CAP-0402" value="27p"/>
 <part name="C43" library="LITTLEBITS" deviceset="CAP" device="CAP-0402" value="82p"/>
-<part name="U$3" library="LITTLEBITS" deviceset="LB_CREDITS_V2" device=""/>
 <part name="U$4" library="SparkFun_NEW" deviceset="OSHW-LOGO" device="L"/>
 <part name="U$5" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
+<part name="U$2" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9768,9 +9767,9 @@ www.olimex.com</text>
 <attribute name="VALUE" x="177.419" y="177.8" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="C43" gate="G$1" x="317.5" y="165.1"/>
-<instance part="U$3" gate="G$1" x="35.56" y="200.66"/>
 <instance part="U$4" gate="G$1" x="104.14" y="203.2"/>
 <instance part="U$5" gate="G$2" x="7.62" y="147.32"/>
+<instance part="U$2" gate="G$1" x="12.7" y="203.2"/>
 </instances>
 <busses>
 <bus name="A[0..12]">
