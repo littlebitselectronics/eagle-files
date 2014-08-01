@@ -644,7 +644,7 @@
 <wire x1="-23.152" y1="32.85" x2="-23.66" y2="33.358" width="0.1016" layer="146"/>
 <wire x1="-23.66" y1="33.358" x2="-23.66" y2="32.342" width="0.1016" layer="146"/>
 <wire x1="-23.66" y1="32.342" x2="-24.168" y2="32.85" width="0.1016" layer="146"/>
-<text x="-88.55" y="-65.85" size="1.778" layer="50">Based on tthe Leonardo design by Arduino
+<text x="-86.75" y="-68.45" size="1.778" layer="50">Based on tthe Leonardo design by Arduino
 http://arduino.cc</text>
 <text x="36.45" y="29.3" size="1.7" layer="50" rot="SR270">w6 arduino</text>
 <text x="31.15" y="30.35" size="1.2" layer="50" rot="SR270">d0/rx</text>
@@ -1203,8 +1203,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-147.22" y1="-75.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-75.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-75.54" x2="72.49" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-75.54" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-71.73" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
@@ -1253,12 +1253,12 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <text x="-17.68" y="-55.22" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
 <wire x1="24.23" y1="-48.87" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
 <text x="53.44" y="-51.41" size="1.27" layer="50">+/- .127mm</text>
-<text x="-130.22" y="-62.54" size="1.778" layer="50">60 East 11th Street</text>
-<text x="-130.22" y="-58.54" size="3" layer="50">littleBits, Inc.</text>
-<text x="-130.22" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
-<text x="-130.22" y="-66.54" size="1.778" layer="50">New York, NY, 10003, USA</text>
-<wire x1="-147.22" y1="-51.54" x2="-91.22" y2="-51.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-51.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
+<text x="-137.84" y="-62.54" size="1.778" layer="50">601 West 26th Street</text>
+<text x="-145.46" y="-58.54" size="2.1844" layer="50">littleBits Electronics, Inc.</text>
+<text x="-137.84" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
+<text x="-141.65" y="-66.54" size="1.778" layer="50">New York, NY, 10001, USA</text>
+<wire x1="-147.22" y1="-51.54" x2="-97.57" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-51.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
 <text x="-12.6" y="-43.79" size="1.27" layer="50">&gt;DRAWING_NAME</text>
 <wire x1="-18.95" y1="-64.11" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-60.3" x2="20.46" y2="-60.3" width="0.2" layer="50"/>
@@ -1305,8 +1305,8 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <text x="1.905" y="3.845" size="0.381" layer="27">&gt;VALUE</text>
 <hole x="-2" y="1.8" drill="0.8"/>
 <hole x="2" y="1.8" drill="0.8"/>
-<pad name="SH3" x="-3.6" y="0" drill="1.15"/>
-<pad name="SH4" x="3.6" y="0" drill="1.15"/>
+<pad name="SH3" x="-3.6" y="0" drill="1"/>
+<pad name="SH4" x="3.6" y="0" drill="1"/>
 </package>
 <package name="PTC-1206">
 <wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="51"/>
@@ -1407,11 +1407,11 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <smd name="1" x="-1.27" y="0" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="-25.4" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-13.97" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-16.51" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-10.795" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
+Statement of Principles by making the circuit designs for its 
+modules available pursuant to the CERN Hardware License, 
+Version 1.2</text>
 </package>
 <package name="OSHW-LOGO-L">
 <polygon width="0.15" layer="50">
@@ -2330,8 +2330,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.85" y="21.1" size="0.4064" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="25.2" y="20.4" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="U$67" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-72.15" y="-58.65" locked="yes"/>
-<element name="U$68" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-72.15" y="-58.65" locked="yes"/>
+<element name="U$67" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-88.25" y="-59.75"/>
 <element name="U$70" library="LITTLEBITS" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-25.25" y="-71" locked="yes"/>
 <element name="W6C28" library="LITTLEBITS" package="CAP-0603" value="1000pF" x="18.61" y="16.33" smashed="yes" rot="MR270">
 <attribute name="LB_PN" value="" x="18.61" y="16.33" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3318,7 +3317,7 @@ design rules under a new name.</description>
 <wire x1="32" y1="30" x2="32.3" y2="30.3" width="0.4064" layer="16"/>
 </signal>
 <signal name="XUSB">
-<contactref element="W6X1" pad="VBUS" route="any" routetag="VBUS"/>
+<contactref element="W6X1" pad="VBUS" route="any" routetag="G$2.VBUS"/>
 <contactref element="W6F1" pad="2"/>
 <wire x1="39.4" y1="21.2" x2="38.28" y2="21.21" width="0.4064" layer="1"/>
 <via x="38.28" y="21.21" extent="1-16" drill="0.4064"/>

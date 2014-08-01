@@ -6582,8 +6582,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-147.22" y1="-75.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-75.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-75.54" x2="72.49" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-75.54" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-71.73" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
@@ -6632,12 +6632,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-17.68" y="-55.22" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
 <wire x1="24.23" y1="-48.87" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
 <text x="53.44" y="-51.41" size="1.27" layer="50">+/- .127mm</text>
-<text x="-130.22" y="-62.54" size="1.778" layer="50">60 East 11th Street</text>
-<text x="-130.22" y="-58.54" size="3" layer="50">littleBits, Inc.</text>
-<text x="-130.22" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
-<text x="-130.22" y="-66.54" size="1.778" layer="50">New York, NY, 10003, USA</text>
-<wire x1="-147.22" y1="-51.54" x2="-91.22" y2="-51.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-51.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
+<text x="-137.84" y="-62.54" size="1.778" layer="50">601 West 26th Street</text>
+<text x="-145.46" y="-58.54" size="2.1844" layer="50">littleBits Electronics, Inc.</text>
+<text x="-137.84" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
+<text x="-141.65" y="-66.54" size="1.778" layer="50">New York, NY, 10001, USA</text>
+<wire x1="-147.22" y1="-51.54" x2="-97.57" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-51.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
 <text x="-12.6" y="-43.79" size="1.27" layer="50">&gt;DRAWING_NAME</text>
 <wire x1="-18.95" y1="-64.11" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-60.3" x2="20.46" y2="-60.3" width="0.2" layer="50"/>
@@ -6684,8 +6684,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="1.905" y="3.845" size="0.381" layer="27">&gt;VALUE</text>
 <hole x="-2" y="1.8" drill="0.8"/>
 <hole x="2" y="1.8" drill="0.8"/>
-<pad name="SH3" x="-3.6" y="0" drill="1.15"/>
-<pad name="SH4" x="3.6" y="0" drill="1.15"/>
+<pad name="SH3" x="-3.6" y="0" drill="1"/>
+<pad name="SH4" x="3.6" y="0" drill="1"/>
 </package>
 <package name="PTC-1206">
 <wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="51"/>
@@ -6910,11 +6910,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="3.25" y1="-2.05" x2="3.7" y2="-2.05" width="0.127" layer="21"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="-25.4" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-13.97" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-16.51" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-10.795" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
+Statement of Principles by making the circuit designs for its 
+modules available pursuant to the CERN Hardware License, 
+Version 1.2</text>
 </package>
 <package name="OSHW-LOGO-M">
 <polygon width="0.15" layer="50">
@@ -7133,22 +7133,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="RES-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
-<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
-<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
-<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
-<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
-</package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="50">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
@@ -7185,6 +7169,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
+</package>
+<package name="RES-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.15" y1="-0.25" x2="0.15" y2="0.25" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -7412,11 +7412,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <pin name="2" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="12.7" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
+Statement of Principles by making the circuit designs for its
+modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -11686,7 +11685,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="P+22" library="LITTLEBITS" deviceset="VCC" device=""/>
 <part name="P+23" library="LITTLEBITS" deviceset="VCC" device=""/>
 <part name="U$67" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
-<part name="U$68" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
 <part name="U$70" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
 <part name="W6C28" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="1000pF"/>
 <part name="W6C29" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="1000pF"/>
@@ -11718,7 +11716,7 @@ Jumper</text>
 <text x="208.28" y="142.24" size="1.9304" layer="91">For DataCom</text>
 <text x="215.9" y="132.08" size="1.778" layer="91">RX</text>
 <text x="215.9" y="124.46" size="1.778" layer="91">TX</text>
-<text x="22.86" y="2.54" size="1.778" layer="97">Based on the Leonardo design by Arduino
+<text x="5.08" y="2.54" size="1.778" layer="97">Based on the Leonardo design by Arduino
 http://arduino.cc</text>
 </plain>
 <instances>
@@ -11801,7 +11799,7 @@ http://arduino.cc</text>
 <instance part="W6R26" gate="G$1" x="185.42" y="88.9" rot="R90"/>
 <instance part="P+22" gate="1" x="177.8" y="81.28" rot="MR180"/>
 <instance part="P+23" gate="1" x="185.42" y="81.28" rot="MR180"/>
-<instance part="U$67" gate="G$1" x="35.56" y="7.62"/>
+<instance part="U$67" gate="G$1" x="5.08" y="7.62"/>
 <instance part="W6C28" gate="G$1" x="220.98" y="157.48" rot="R90"/>
 <instance part="W6C29" gate="G$1" x="220.98" y="147.32" rot="R90"/>
 <instance part="P+26" gate="1" x="228.6" y="152.4" rot="MR90"/>
@@ -12552,7 +12550,6 @@ http://arduino.cc</text>
 <instance part="GND30" gate="1" x="218.44" y="111.76"/>
 <instance part="W6TVS4" gate="G$1" x="182.88" y="157.48"/>
 <instance part="W6TVS1" gate="G$1" x="53.34" y="134.62"/>
-<instance part="U$68" gate="G$1" x="35.56" y="10.16"/>
 <instance part="U$70" gate="G$1" x="132.08" y="12.7"/>
 <instance part="GND23" gate="1" x="124.46" y="91.44"/>
 <instance part="GND16" gate="1" x="124.46" y="40.64"/>
