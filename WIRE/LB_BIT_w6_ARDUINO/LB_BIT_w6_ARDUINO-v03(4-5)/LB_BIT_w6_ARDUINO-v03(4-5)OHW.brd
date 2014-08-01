@@ -2396,6 +2396,7 @@ design rules under a new name.</description>
 <element name="U$52" library="LITTLEBITS" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-25.25" y="-71"/>
 <element name="DRILEGEND" library="drilegend" package="DRILEGEND" value="" x="-14.02" y="-17.01999375"/>
 <element name="U$54" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="0" y="0"/>
+<element name="U$1" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-88.27" y="-59.76"/>
 </elements>
 <signals>
 <signal name="GND">

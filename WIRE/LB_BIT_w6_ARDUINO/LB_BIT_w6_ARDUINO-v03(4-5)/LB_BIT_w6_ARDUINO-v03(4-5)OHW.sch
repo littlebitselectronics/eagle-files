@@ -11703,6 +11703,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="W6JP2" library="SparkFun" deviceset="M03" device="PTH" value="Analog IO"/>
 <part name="U$52" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
 <part name="U$54" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12562,6 +12563,7 @@ http://arduino.cc</text>
 <instance part="W6R2" gate="G$1" x="66.04" y="139.7"/>
 <instance part="U$54" gate="G$1" x="0" y="0"/>
 <instance part="U$54" gate="G$2" x="147.32" y="0"/>
+<instance part="U$1" gate="G$1" x="22.86" y="12.7"/>
 </instances>
 <busses>
 </busses>
