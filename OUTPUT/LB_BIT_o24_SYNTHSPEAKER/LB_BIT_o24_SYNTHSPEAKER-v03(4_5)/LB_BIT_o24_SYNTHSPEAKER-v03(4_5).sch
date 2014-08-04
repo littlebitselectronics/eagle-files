@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -133,6 +133,8 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -215,43 +217,19 @@
 <library name="LITTLEBITS">
 <packages>
 <package name="CAP-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="CAP-0805">
-<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="CAP-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="CAP-1206">
@@ -284,36 +262,20 @@
 <text x="-2.032" y="-0.508" size="0.8128" layer="21" ratio="15">&gt;Value</text>
 </package>
 <package name="RES-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
-</package>
-<package name="RES-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
 </package>
 <package name="RES-0805">
 <wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
@@ -493,8 +455,8 @@
 <smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-0.889" y="-0.381" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-2.7305" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
 <rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
@@ -549,8 +511,8 @@
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-147.22" y1="-75.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-75.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-75.54" x2="72.49" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-75.54" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-71.73" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
@@ -599,12 +561,12 @@
 <text x="-17.68" y="-55.22" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
 <wire x1="24.23" y1="-48.87" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
 <text x="53.44" y="-51.41" size="1.27" layer="50">+/- .127mm</text>
-<text x="-130.22" y="-62.54" size="1.778" layer="50">60 East 11th Street</text>
-<text x="-130.22" y="-58.54" size="3" layer="50">littleBits, Inc.</text>
-<text x="-130.22" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
-<text x="-130.22" y="-66.54" size="1.778" layer="50">New York, NY, 10003, USA</text>
-<wire x1="-147.22" y1="-51.54" x2="-91.22" y2="-51.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-51.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
+<text x="-137.84" y="-62.54" size="1.778" layer="50">601 West 26th Street</text>
+<text x="-145.46" y="-58.54" size="2.1844" layer="50">littleBits Electronics, Inc.</text>
+<text x="-137.84" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
+<text x="-141.65" y="-66.54" size="1.778" layer="50">New York, NY, 10001, USA</text>
+<wire x1="-147.22" y1="-51.54" x2="-97.57" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-51.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
 <text x="-12.6" y="-43.79" size="1.27" layer="50">&gt;DRAWING_NAME</text>
 <wire x1="-18.95" y1="-64.11" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-60.3" x2="20.46" y2="-60.3" width="0.2" layer="50"/>
@@ -741,22 +703,17 @@
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="THUMBPOT-BOURNS_3352">
 <circle x="0" y="0" radius="4.450278125" width="0.127" layer="51"/>
 <wire x1="-3.85" y1="-2.25" x2="-3.85" y2="-5.1" width="0.127" layer="51"/>
 <wire x1="-3.85" y1="-5.1" x2="3.85" y2="-5.1" width="0.127" layer="51"/>
 <wire x1="3.85" y1="-5.1" x2="3.85" y2="-2.25" width="0.127" layer="51"/>
-<pad name="3" x="-2.55" y="-1.1" drill="0.6"/>
-<pad name="2" x="0" y="-3.65" drill="0.6"/>
-<pad name="1" x="2.55" y="-1.1" drill="0.6"/>
+<pad name="3" x="-2.55" y="-1.1" drill="0.8" diameter="1.5"/>
+<pad name="2" x="0" y="-3.65" drill="0.8" diameter="1.5"/>
+<pad name="1" x="2.55" y="-1.1" drill="0.8" diameter="1.5"/>
 <wire x1="-0.5" y1="3.45" x2="0.5" y2="3.45" width="0.127" layer="51"/>
+<text x="-3.81" y="-6.35" size="0.8128" layer="25">&gt;Name</text>
+<text x="-3.81" y="-7.62" size="0.8128" layer="27">&gt;Value</text>
 </package>
 <package name="EIA3528">
 <wire x1="-0.9" y1="-1.6" x2="-2.6" y2="-1.6" width="0.2032" layer="51"/>
@@ -846,6 +803,55 @@
 <wire x1="-3.2" y1="0.65" x2="3.25" y2="0.65" width="0.127" layer="21"/>
 <wire x1="3.25" y1="0.65" x2="3.25" y2="-2.05" width="0.127" layer="21"/>
 <wire x1="3.25" y1="-2.05" x2="3.7" y2="-2.05" width="0.127" layer="21"/>
+</package>
+<package name="CAP-0805">
+<smd name="1" x="-0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.762" y="0.9255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.297" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.371" y1="0.66" x2="0.391" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.346" y1="-0.66" x2="0.391" y2="-0.66" width="0.1016" layer="51"/>
+<rectangle x1="-1.0822" y1="-0.73" x2="-0.3321" y2="0.73" layer="51"/>
+<rectangle x1="0.3321" y1="-0.73" x2="1.0822" y2="0.73" layer="51"/>
+</package>
+<package name="CAP-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="RES-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.15" y1="-0.25" x2="0.15" y2="0.25" layer="21"/>
+</package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -941,6 +947,8 @@
 <pin name="VDD" x="17.78" y="2.54" length="short" rot="R180"/>
 <pin name="GND" x="17.78" y="7.62" length="short" rot="R180"/>
 <pin name="OUT-" x="17.78" y="12.7" length="short" rot="R180"/>
+<text x="0" y="17.78" size="1.778" layer="95">&gt;Name</text>
+<text x="0" y="-7.62" size="1.778" layer="95">&gt;Value</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -1003,13 +1011,14 @@
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="-1.778" width="0.254" layer="94"/>
 <text x="-3.0226" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="4.8514" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="4.8514" y="2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="-1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="5.08" y="-7.62" size="1.778" layer="94" rot="R90">&gt;MPN</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -4565,13 +4574,6 @@
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
-<symbol name="OSHWCREDIT-KORG">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
-</symbol>
 <symbol name="POTENTIOMETER">
 <wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
 <wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
@@ -4586,11 +4588,14 @@
 <wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
-<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="-7.62" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="1" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="3" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-0.762" y="-6.858" size="1.27" layer="94" rot="R90">1</text>
+<text x="4.318" y="-2.032" size="1.27" layer="94" rot="R90">2</text>
+<text x="-0.762" y="5.588" size="1.27" layer="94" rot="R90">3</text>
 </symbol>
 <symbol name="HDR-2">
 <wire x1="6.35" y1="0" x2="0" y2="0" width="0.4064" layer="94"/>
@@ -4603,6 +4608,13 @@
 <text x="0" y="8.382" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="OSHWCREDIT-KORG">
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
+<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4904,6 +4916,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <technology name="">
 <attribute name="IEC_ESD_PROT" value="+/-18kV" constant="no"/>
 <attribute name="LB_PN" value="?" constant="no"/>
+<attribute name="USUAL_PART_VALUE" value="ESD9B5.0ST5G"/>
 <attribute name="V_CLAMP" value="?" constant="no"/>
 <attribute name="V_OPERATION" value="5V" constant="no"/>
 </technology>
@@ -4916,8 +4929,9 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </connects>
 <technologies>
 <technology name="">
-<attribute name="IEC_ESD_PROT" value="+/-18kV" constant="no"/>
+<attribute name="IEC_ESD_PROT0" value="+/-18kV" constant="no"/>
 <attribute name="LB_PN" value="?" constant="no"/>
+<attribute name="MPN" value="ESD9B5.0ST5G"/>
 <attribute name="V_CLAMP" value="?" constant="no"/>
 <attribute name="V_OPERATION" value="5V" constant="no"/>
 </technology>
@@ -4942,18 +4956,6 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OSHWCREDIT-KORG">
-<gates>
-<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
-</gates>
-<devices>
-<device name="" package="OSHWCREDIT-KORG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5033,6 +5035,18 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSHWCREDIT-KORG">
+<gates>
+<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSHWCREDIT-KORG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6026,7 +6040,6 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <part name="O24R6" library="LITTLEBITS" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
 <part name="$1_28_$" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
-<part name="$1_27_$" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 <part name="O24C6" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="0.1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="O24VR1" library="LITTLEBITS" deviceset="THUMBPOT-BOURNS_3352" device="P"/>
@@ -6048,6 +6061,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <part name="O24C1" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="1000pF"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="O24C2" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="0.1uF"/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6105,7 +6119,6 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </instance>
 <instance part="P+5" gate="1" x="78.74" y="111.76"/>
 <instance part="$1_28_$" gate="G$1" x="132.08" y="12.7"/>
-<instance part="$1_27_$" gate="G$1" x="22.86" y="2.54"/>
 <instance part="O24C6" gate="G$1" x="116.84" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="115.824" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.824" y="94.361" size="1.778" layer="96"/>
@@ -6145,6 +6158,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <attribute name="NAME" x="70.104" y="86.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.644" y="84.201" size="1.778" layer="96"/>
 </instance>
+<instance part="U$1" gate="G$1" x="55.88" y="5.08"/>
 </instances>
 <busses>
 </busses>

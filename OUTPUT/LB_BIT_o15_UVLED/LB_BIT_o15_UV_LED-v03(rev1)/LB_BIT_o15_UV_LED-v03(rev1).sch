@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -63,6 +63,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -98,8 +99,12 @@
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
 <layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -128,6 +133,8 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="225" name="225bmp" color="26" fill="10" visible="no" active="yes"/>
 <layer number="226" name="226bmp" color="27" fill="10" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -998,129 +1005,34 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </library>
 <library name="LITTLEBITS">
 <packages>
-<package name="SC70">
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
-<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
-<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
-<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
-<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
-</package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.8104" x2="1.4224" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="-0.8104" x2="-1.4224" y2="-0.8104" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.8104" x2="-1.4224" y2="0.8104" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="51"/>
-<wire x1="-0.5224" y1="0.8104" x2="0.5224" y2="0.8104" width="0.1524" layer="21"/>
-<wire x1="-0.4276" y1="-0.8104" x2="-0.5224" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="0.5224" y1="-0.8104" x2="0.4276" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="-1.3276" y1="-0.8104" x2="-1.4224" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="-0.8104" x2="1.3276" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="1.3276" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.8104" x2="-1.3276" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
 <smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-0.889" y="-0.381" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-2.7305" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
 <rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<package name="FABDWG01-OHW">
-<wire x1="0" y1="144" x2="0" y2="24" width="0.2" layer="50"/>
-<wire x1="0" y1="24" x2="0" y2="0" width="0.2" layer="50"/>
-<wire x1="0" y1="0" x2="56" y2="0" width="0.2" layer="50"/>
-<wire x1="56" y1="0" x2="128.27" y2="0" width="0.2" layer="50"/>
-<wire x1="128.27" y1="0" x2="219.71" y2="0" width="0.2" layer="50"/>
-<wire x1="219.71" y1="0" x2="219.71" y2="3.81" width="0.2" layer="50"/>
-<wire x1="219.71" y1="3.81" x2="219.71" y2="7.62" width="0.2" layer="50"/>
-<wire x1="219.71" y1="7.62" x2="219.71" y2="11.43" width="0.2" layer="50"/>
-<wire x1="219.71" y1="11.43" x2="219.71" y2="15.24" width="0.2" layer="50"/>
-<wire x1="219.71" y1="15.24" x2="219.71" y2="19.05" width="0.2" layer="50"/>
-<wire x1="219.71" y1="19.05" x2="219.71" y2="22.86" width="0.2" layer="50"/>
-<wire x1="219.71" y1="22.86" x2="219.71" y2="26.67" width="0.2" layer="50"/>
-<wire x1="219.71" y1="26.67" x2="219.71" y2="30.48" width="0.2" layer="50"/>
-<wire x1="219.71" y1="30.48" x2="219.71" y2="34.29" width="0.2" layer="50"/>
-<wire x1="219.71" y1="34.29" x2="219.71" y2="144" width="0.2" layer="50"/>
-<wire x1="219.71" y1="144" x2="0" y2="144" width="0.2" layer="50"/>
-<wire x1="128.27" y1="0" x2="128.27" y2="3.81" width="0.2" layer="50"/>
-<wire x1="128.27" y1="3.81" x2="128.27" y2="7.62" width="0.2" layer="50"/>
-<wire x1="128.27" y1="7.62" x2="128.27" y2="11.43" width="0.2" layer="50"/>
-<wire x1="128.27" y1="11.43" x2="128.27" y2="15.24" width="0.2" layer="50"/>
-<wire x1="128.27" y1="15.24" x2="128.27" y2="19.05" width="0.2" layer="50"/>
-<wire x1="128.27" y1="19.05" x2="128.27" y2="22.86" width="0.2" layer="50"/>
-<wire x1="128.27" y1="22.86" x2="128.27" y2="26.67" width="0.2" layer="50"/>
-<wire x1="128.27" y1="26.67" x2="128.27" y2="30.48" width="0.2" layer="50"/>
-<wire x1="128.27" y1="30.48" x2="128.27" y2="34.29" width="0.2" layer="50"/>
-<wire x1="128.27" y1="34.29" x2="195.58" y2="34.29" width="0.2" layer="50"/>
-<wire x1="195.58" y1="34.29" x2="219.71" y2="34.29" width="0.2" layer="50"/>
-<wire x1="128.27" y1="30.48" x2="195.58" y2="30.48" width="0.2" layer="50"/>
-<wire x1="195.58" y1="30.48" x2="219.71" y2="30.48" width="0.2" layer="50"/>
-<wire x1="128.27" y1="26.67" x2="171.45" y2="26.67" width="0.2" layer="50"/>
-<wire x1="171.45" y1="26.67" x2="219.71" y2="26.67" width="0.2" layer="50"/>
-<wire x1="128.27" y1="22.86" x2="171.45" y2="22.86" width="0.2" layer="50"/>
-<wire x1="171.45" y1="22.86" x2="219.71" y2="22.86" width="0.2" layer="50"/>
-<wire x1="128.27" y1="19.05" x2="219.71" y2="19.05" width="0.2" layer="50"/>
-<wire x1="128.27" y1="7.62" x2="167.68" y2="7.62" width="0.2" layer="50"/>
-<wire x1="167.68" y1="7.62" x2="219.71" y2="7.62" width="0.2" layer="50"/>
-<wire x1="128.27" y1="3.81" x2="167.68" y2="3.81" width="0.2" layer="50"/>
-<text x="129.54" y="31.75" size="1.27" layer="50">PN:</text>
-<text x="129.54" y="27.94" size="1.27" layer="50">DESC:</text>
-<text x="196.85" y="31.75" size="1.27" layer="50">REV:</text>
-<text x="172.974" y="24.13" size="1.27" layer="50">ROUTING TOLERANCE:</text>
-<text x="129.54" y="16.51" size="1.27" layer="50">GERBER REF:</text>
-<text x="129.54" y="5.08" size="1.27" layer="50">APPROVED:</text>
-<text x="129.54" y="1.016" size="1.27" layer="50">DIMENSIONS IN mm UNLESS OTHERWISE INDICATED</text>
-<text x="160.02" y="20.32" size="1.27" layer="50">+/- .127mm</text>
-<wire x1="167.68" y1="3.81" x2="219.71" y2="3.81" width="0.2" layer="50"/>
-<wire x1="195.58" y1="34.29" x2="195.58" y2="30.48" width="0.2" layer="50"/>
-<text x="129.54" y="24.13" size="1.27" layer="50">HOLE TOLERANCE:</text>
-<text x="153.67" y="24.13" size="1.27" layer="50">+/- .076mm</text>
-<text x="129.54" y="20.32" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
-<wire x1="171.45" y1="26.67" x2="171.45" y2="22.86" width="0.2" layer="50"/>
-<text x="200.66" y="24.13" size="1.27" layer="50">+/- .127mm</text>
-<text x="17" y="13" size="1.778" layer="50">60 East 11th Street</text>
-<text x="17" y="17" size="3" layer="50">littleBits, Inc.</text>
-<text x="17" y="5" size="1.778" layer="50">phone: 917-464-4577</text>
-<text x="17" y="9" size="1.778" layer="50">New York, NY, 10003, USA</text>
-<wire x1="0" y1="24" x2="56" y2="24" width="0.2" layer="50"/>
-<wire x1="56" y1="24" x2="56" y2="0" width="0.2" layer="50"/>
-<text x="134.62" y="31.75" size="1.27" layer="50">&gt;DRAWING_NAME</text>
-<wire x1="128.27" y1="11.43" x2="167.68" y2="11.43" width="0.2" layer="50"/>
-<wire x1="128.27" y1="15.24" x2="167.68" y2="15.24" width="0.2" layer="50"/>
-<wire x1="167.68" y1="11.43" x2="219.71" y2="11.43" width="0.2" layer="50"/>
-<wire x1="167.68" y1="15.24" x2="219.71" y2="15.24" width="0.2" layer="50"/>
-<text x="129.54" y="8.89" size="1.27" layer="50">APPROVED:</text>
-<text x="129.54" y="12.7" size="1.27" layer="50">APPROVED:</text>
-<wire x1="167.68" y1="11.43" x2="167.68" y2="7.62" width="0.2" layer="50"/>
-<wire x1="167.68" y1="15.24" x2="167.68" y2="11.43" width="0.2" layer="50"/>
-<wire x1="167.68" y1="7.62" x2="167.68" y2="3.81" width="0.2" layer="50"/>
-<text x="170.18" y="8.89" size="1.27" layer="50">DATE:</text>
-<text x="170.18" y="12.7" size="1.27" layer="50">DATE:</text>
-<text x="170.18" y="5.08" size="1.27" layer="50">DATE:</text>
-</package>
 <package name="OSHWCREDIT">
-<text x="-25.4" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-13.97" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-16.51" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-10.795" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
+Statement of Principles by making the circuit designs for its 
+modules available pursuant to the CERN Hardware License, 
+Version 1.2</text>
 </package>
 <package name="OSHW-LOGO-L">
 <polygon width="0.15" layer="50">
@@ -1233,6 +1145,97 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
+<package name="SC70-5">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
+<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
+<rectangle x1="-0.85" y1="-1.2" x2="-0.45" y2="-0.45" layer="31"/>
+<rectangle x1="-0.2" y1="-1.2" x2="0.2" y2="-0.45" layer="31"/>
+<rectangle x1="0.45" y1="-1.2" x2="0.85" y2="-0.45" layer="31"/>
+</package>
+<package name="FABDWG01-OHW">
+<wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-75.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-75.54" x2="72.49" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-75.54" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-71.73" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-67.92" x2="72.49" y2="-64.11" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-64.11" x2="72.49" y2="-60.3" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-60.3" x2="72.49" y2="-56.49" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-56.49" x2="72.49" y2="-52.68" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-52.68" x2="72.49" y2="-48.87" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-48.87" x2="72.49" y2="-45.06" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-45.06" x2="72.49" y2="-41.25" width="0.2" layer="50"/>
+<wire x1="72.49" y1="-41.25" x2="72.49" y2="68.46" width="0.2" layer="50"/>
+<wire x1="72.49" y1="68.46" x2="-147.22" y2="68.46" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-75.54" x2="-18.95" y2="-71.73" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-71.73" x2="-18.95" y2="-67.92" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-67.92" x2="-18.95" y2="-64.11" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-64.11" x2="-18.95" y2="-60.3" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-60.3" x2="-18.95" y2="-56.49" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-56.49" x2="-18.95" y2="-52.68" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-52.68" x2="-18.95" y2="-48.87" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-48.87" x2="-18.95" y2="-45.06" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-45.06" x2="-18.95" y2="-41.25" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-41.25" x2="48.36" y2="-41.25" width="0.2" layer="50"/>
+<wire x1="48.36" y1="-41.25" x2="72.49" y2="-41.25" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-45.06" x2="48.36" y2="-45.06" width="0.2" layer="50"/>
+<wire x1="48.36" y1="-45.06" x2="72.49" y2="-45.06" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-48.87" x2="24.23" y2="-48.87" width="0.2" layer="50"/>
+<wire x1="24.23" y1="-48.87" x2="72.49" y2="-48.87" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-52.68" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
+<wire x1="24.23" y1="-52.68" x2="72.49" y2="-52.68" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-56.49" x2="72.49" y2="-56.49" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-67.92" x2="20.46" y2="-67.92" width="0.2" layer="50"/>
+<wire x1="20.46" y1="-67.92" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-71.73" x2="20.46" y2="-71.73" width="0.2" layer="50"/>
+<text x="-17.68" y="-43.79" size="1.27" layer="50">PN:</text>
+<text x="-17.68" y="-47.6" size="1.27" layer="50">DESC:</text>
+<text x="49.63" y="-43.79" size="1.27" layer="50">REV:</text>
+<text x="25.754" y="-51.41" size="1.27" layer="50">ROUTING TOLERANCE:</text>
+<text x="-17.68" y="-59.03" size="1.27" layer="50">GERBER REF:</text>
+<text x="-17.68" y="-70.46" size="1.27" layer="50">APPROVED:</text>
+<text x="-17.68" y="-74.524" size="1.27" layer="50">DIMENSIONS IN mm UNLESS OTHERWISE INDICATED</text>
+<text x="12.8" y="-55.22" size="1.27" layer="50">+/- .127mm</text>
+<wire x1="20.46" y1="-71.73" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
+<wire x1="48.36" y1="-41.25" x2="48.36" y2="-45.06" width="0.2" layer="50"/>
+<text x="-17.68" y="-51.41" size="1.27" layer="50">HOLE TOLERANCE:</text>
+<text x="6.45" y="-51.41" size="1.27" layer="50">+/- .076mm</text>
+<text x="-17.68" y="-55.22" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
+<wire x1="24.23" y1="-48.87" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
+<text x="53.44" y="-51.41" size="1.27" layer="50">+/- .127mm</text>
+<text x="-137.84" y="-62.54" size="1.778" layer="50">601 West 26th Street</text>
+<text x="-145.46" y="-58.54" size="2.1844" layer="50">littleBits Electronics, Inc.</text>
+<text x="-137.84" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
+<text x="-141.65" y="-66.54" size="1.778" layer="50">New York, NY, 10001, USA</text>
+<wire x1="-147.22" y1="-51.54" x2="-97.57" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-51.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<text x="-12.6" y="-43.79" size="1.27" layer="50">&gt;DRAWING_NAME</text>
+<wire x1="-18.95" y1="-64.11" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
+<wire x1="-18.95" y1="-60.3" x2="20.46" y2="-60.3" width="0.2" layer="50"/>
+<wire x1="20.46" y1="-64.11" x2="72.49" y2="-64.11" width="0.2" layer="50"/>
+<wire x1="20.46" y1="-60.3" x2="72.49" y2="-60.3" width="0.2" layer="50"/>
+<text x="-17.68" y="-66.65" size="1.27" layer="50">APPROVED:</text>
+<text x="-17.68" y="-62.84" size="1.27" layer="50">APPROVED:</text>
+<wire x1="20.46" y1="-64.11" x2="20.46" y2="-67.92" width="0.2" layer="50"/>
+<wire x1="20.46" y1="-60.3" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
+<wire x1="20.46" y1="-67.92" x2="20.46" y2="-71.73" width="0.2" layer="50"/>
+<text x="22.96" y="-66.65" size="1.27" layer="50">DATE:</text>
+<text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
+<text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -1252,65 +1255,13 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 <pin name="V+" x="-2.54" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="V-" x="-2.54" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="LETTER_L">
-<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
-<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="101.6" y1="25.4" x2="87.63" y2="25.4" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="40.64" y2="5.08" width="0.254" layer="94"/>
-<wire x1="40.64" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="20.32" x2="0" y2="25.4" width="0.254" layer="94"/>
-<wire x1="101.6" y1="25.4" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="86.36" y2="5.08" width="0.254" layer="94"/>
-<wire x1="86.36" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="87.63" y1="25.4" x2="86.36" y2="25.4" width="0.254" layer="94"/>
-<wire x1="86.36" y1="25.4" x2="40.64" y2="25.4" width="0.254" layer="94"/>
-<wire x1="40.64" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="25.4" x2="0" y2="33.02" width="0.254" layer="94"/>
-<wire x1="101.6" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
-<wire x1="101.6" y1="40.64" x2="101.6" y2="33.02" width="0.254" layer="94"/>
-<wire x1="0" y1="33.02" x2="101.6" y2="33.02" width="0.254" layer="94"/>
-<wire x1="0" y1="33.02" x2="0" y2="40.64" width="0.254" layer="94"/>
-<wire x1="101.6" y1="33.02" x2="101.6" y2="25.4" width="0.254" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="88.9" y="21.59" size="2.54" layer="94" font="vector">REV:</text>
-<text x="1.524" y="27.94" size="2.54" layer="94" font="vector">TITLE:</text>
-<text x="1.27" y="21.59" size="2.54" layer="94" font="vector">Approval Inits:</text>
-<text x="15.494" y="27.94" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="1.524" y="35.56" size="2.54" layer="94" font="vector">littleBits Electronics, Inc.</text>
-<text x="44.45" y="21.59" size="2.54" layer="94" font="vector">Date:</text>
-<wire x1="0" y1="20.32" x2="86.36" y2="20.32" width="0.254" layer="94"/>
-<wire x1="86.36" y1="20.32" x2="86.36" y2="15.24" width="0.254" layer="94"/>
-<wire x1="86.36" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="10.16" x2="86.36" y2="10.16" width="0.254" layer="94"/>
-<wire x1="86.36" y1="10.16" x2="86.36" y2="12.7" width="0.254" layer="94"/>
-<wire x1="86.36" y1="12.7" x2="86.36" y2="5.08" width="0.254" layer="94"/>
-<wire x1="86.36" y1="5.08" x2="86.36" y2="25.4" width="0.254" layer="94"/>
-<wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="12.7" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
+Statement of Principles by making the circuit designs for its
+modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -4866,6 +4817,58 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
+<symbol name="LETTER_L">
+<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
+<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="101.6" y1="25.4" x2="87.63" y2="25.4" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+<wire x1="40.64" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="101.6" y1="25.4" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="86.36" y2="5.08" width="0.254" layer="94"/>
+<wire x1="86.36" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="87.63" y1="25.4" x2="86.36" y2="25.4" width="0.254" layer="94"/>
+<wire x1="86.36" y1="25.4" x2="40.64" y2="25.4" width="0.254" layer="94"/>
+<wire x1="40.64" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="25.4" x2="0" y2="33.02" width="0.254" layer="94"/>
+<wire x1="101.6" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
+<wire x1="101.6" y1="40.64" x2="101.6" y2="33.02" width="0.254" layer="94"/>
+<wire x1="0" y1="33.02" x2="101.6" y2="33.02" width="0.254" layer="94"/>
+<wire x1="0" y1="33.02" x2="0" y2="40.64" width="0.254" layer="94"/>
+<wire x1="101.6" y1="33.02" x2="101.6" y2="25.4" width="0.254" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="88.9" y="21.59" size="2.54" layer="94" font="vector">REV:</text>
+<text x="1.524" y="27.94" size="2.54" layer="94" font="vector">TITLE:</text>
+<text x="1.27" y="21.59" size="2.54" layer="94" font="vector">Approval Inits:</text>
+<text x="15.494" y="27.94" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="1.524" y="35.56" size="2.54" layer="94" font="vector">littleBits Electronics, Inc.</text>
+<text x="44.45" y="21.59" size="2.54" layer="94" font="vector">Date:</text>
+<wire x1="0" y1="20.32" x2="86.36" y2="20.32" width="0.254" layer="94"/>
+<wire x1="86.36" y1="20.32" x2="86.36" y2="15.24" width="0.254" layer="94"/>
+<wire x1="86.36" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="10.16" x2="86.36" y2="10.16" width="0.254" layer="94"/>
+<wire x1="86.36" y1="10.16" x2="86.36" y2="12.7" width="0.254" layer="94"/>
+<wire x1="86.36" y1="12.7" x2="86.36" y2="5.08" width="0.254" layer="94"/>
+<wire x1="86.36" y1="5.08" x2="86.36" y2="25.4" width="0.254" layer="94"/>
+<wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LV321">
@@ -4873,7 +4876,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <gate name="G$1" symbol="OPAMP" x="5.08" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="SC70">
+<device name="" package="SC70-5">
 <connects>
 <connect gate="G$1" pin="+IN" pad="1"/>
 <connect gate="G$1" pin="-IN" pad="3"/>
@@ -4893,19 +4896,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="V+" pad="5"/>
 <connect gate="G$1" pin="V-" pad="2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FRAME-LETTER-OHW">
-<gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0"/>
-</gates>
-<devices>
-<device name="OHW" package="FABDWG01-OHW">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4941,6 +4931,19 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME-LETTER-OHW">
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0"/>
+</gates>
+<devices>
+<device name="OHW" package="FABDWG01-OHW">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5903,7 +5906,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <parts>
 <part name="O15R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330"/>
 <part name="O15R4" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1M"/>
-<part name="FRAME1" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
 <part name="O15C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="O15U1" library="LITTLEBITS" deviceset="LV321" device="SOT23-5"/>
 <part name="U$3" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
@@ -5915,6 +5917,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="O15BSM1" library="bitSnap" deviceset="BITSNAP_V03_MALE" device=""/>
 <part name="O15JP1" library="SparkFun" deviceset="M02" device="-JST-2MM-SMT"/>
 <part name="U$4" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
+<part name="U$1" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
 </parts>
 <sheets>
 <sheet>
@@ -5925,8 +5928,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instances>
 <instance part="O15R3" gate="G$1" x="139.7" y="91.44" rot="R270"/>
 <instance part="O15R4" gate="G$1" x="101.6" y="96.52" rot="R90"/>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="O15C1" gate="G$1" x="91.44" y="96.52" rot="MR0"/>
 <instance part="O15U1" gate="G$1" x="116.84" y="104.14" smashed="yes">
 <attribute name="VALUE" x="116.84" y="114.3" size="1.778" layer="96"/>
@@ -5940,6 +5941,8 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="O15BSM1" gate="G$1" x="63.5" y="101.6"/>
 <instance part="O15JP1" gate="G$1" x="139.7" y="106.68" rot="MR270"/>
 <instance part="U$4" gate="G$1" x="38.1" y="10.16"/>
+<instance part="U$1" gate="G$1" x="0" y="0"/>
+<instance part="U$1" gate="G$2" x="147.32" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -6041,4 +6044,10 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
