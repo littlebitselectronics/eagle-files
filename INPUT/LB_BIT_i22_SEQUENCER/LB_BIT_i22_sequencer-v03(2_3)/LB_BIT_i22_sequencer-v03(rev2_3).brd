@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -875,32 +875,32 @@ quarter-circle legs are 2  intervals apart</text>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
 <package name="CAP-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="RES-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -1010,7 +1010,7 @@ quarter-circle legs are 2  intervals apart</text>
 <smd name="28" x="-1.35" y="2" dx="0.75" dy="0.2" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
 <wire x1="-1.35" y1="2.3" x2="-1.35" y2="1.7" width="0.3" layer="29"/>
 <wire x1="-1.35" y1="2.27" x2="-1.35" y2="1.73" width="0.2" layer="31"/>
-<circle x="-2.2" y="2" radius="0.1" width="0.245" layer="21"/>
+<circle x="-2.2" y="2" radius="0.1" width="0.245" layer="51"/>
 <pad name="TH@1" x="-0.5588" y="0.5588" drill="0.4064" diameter="0.4064"/>
 <pad name="TH@2" x="0.5588" y="0.5588" drill="0.4064" diameter="0.4064"/>
 <pad name="TH@4" x="0.5588" y="-0.5588" drill="0.4064" diameter="0.4064"/>
@@ -1137,11 +1137,13 @@ quarter-circle legs are 2  intervals apart</text>
 </polygon>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
@@ -1391,9 +1393,6 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>

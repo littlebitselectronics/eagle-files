@@ -775,44 +775,22 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </library>
 <library name="LITTLEBITS">
 <packages>
-<package name="SC70">
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
-<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
-<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
-<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
-<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
-<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
-</package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="1.4224" y1="0.8104" x2="1.4224" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="-0.8104" x2="-1.4224" y2="-0.8104" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.8104" x2="-1.4224" y2="0.8104" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="51"/>
-<wire x1="-0.5224" y1="0.8104" x2="0.5224" y2="0.8104" width="0.1524" layer="21"/>
-<wire x1="-0.4276" y1="-0.8104" x2="-0.5224" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="0.5224" y1="-0.8104" x2="0.4276" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="-1.3276" y1="-0.8104" x2="-1.4224" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="-0.8104" x2="1.3276" y2="-0.8104" width="0.1524" layer="21"/>
-<wire x1="1.3276" y1="0.8104" x2="1.4224" y2="0.8104" width="0.1524" layer="21"/>
-<wire x1="-1.4224" y1="0.8104" x2="-1.3276" y2="0.8104" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
 <smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-0.889" y="-0.381" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-2.7305" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
 <rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
@@ -931,11 +909,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </polygon>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
@@ -1010,6 +990,24 @@ Version 1.2</text>
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
+<package name="SC70-5">
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
+<smd name="1" x="-0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="2" x="0" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="3" x="0.65" y="-0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="4" x="0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<smd name="5" x="-0.65" y="0.825" dx="0.4" dy="0.75" layer="1" cream="no"/>
+<text x="-0.889" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
+<rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
+<rectangle x1="-0.85" y1="-1.2" x2="-0.45" y2="-0.45" layer="31"/>
+<rectangle x1="-0.2" y1="-1.2" x2="0.2" y2="-0.45" layer="31"/>
+<rectangle x1="0.45" y1="-1.2" x2="0.85" y2="-0.45" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -1029,6 +1027,7 @@ Version 1.2</text>
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 <pin name="V+" x="-2.54" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="V-" x="-2.54" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<text x="0" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -4585,10 +4584,12 @@ Version 1.2</text>
 </polygon>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -4649,7 +4650,7 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <gate name="G$1" symbol="OPAMP" x="5.08" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="SC70">
+<device name="" package="SC70-5">
 <connects>
 <connect gate="G$1" pin="+IN" pad="1"/>
 <connect gate="G$1" pin="-IN" pad="3"/>
@@ -4661,7 +4662,7 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SOT-235" package="SOT23-5">
+<device name="SOT23-5" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="+IN" pad="1"/>
 <connect gate="G$1" pin="-IN" pad="3"/>
@@ -5686,7 +5687,7 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="O1U1" library="LITTLEBITS" deviceset="LV321" device="SOT-235"/>
+<part name="O1U1" library="LITTLEBITS" deviceset="LV321" device="SOT23-5"/>
 <part name="O1BSF" library="bitSnap" deviceset="BITSNAP_V03_FEMALE" device=""/>
 <part name="O1BSM" library="bitSnap" deviceset="BITSNAP_V03_MALE" device=""/>
 <part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
@@ -5712,7 +5713,7 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </instance>
 <instance part="O1BSF" gate="G$1" x="154.94" y="99.06"/>
 <instance part="O1BSM" gate="G$1" x="60.96" y="101.6"/>
-<instance part="U$1" gate="G$1" x="63.5" y="7.62"/>
+<instance part="U$1" gate="G$1" x="50.8" y="7.62"/>
 <instance part="U$4" gate="G$1" x="0" y="0"/>
 <instance part="U$4" gate="G$2" x="147.32" y="0"/>
 </instances>

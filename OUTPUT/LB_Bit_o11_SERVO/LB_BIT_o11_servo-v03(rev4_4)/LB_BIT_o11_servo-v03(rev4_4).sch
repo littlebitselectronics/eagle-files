@@ -1218,11 +1218,13 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="OSHW-LOGO-L">
 <polygon width="0.15" layer="50">
@@ -1672,10 +1674,12 @@ Version 1.2</text>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>

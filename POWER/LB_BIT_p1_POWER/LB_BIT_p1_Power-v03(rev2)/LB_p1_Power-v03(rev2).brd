@@ -549,11 +549,13 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <library name="LITTLEBITS">
 <packages>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="LITTLEBITS_SWITCH-DICGU_SPDT">
 <wire x1="-4.1" y1="2.2" x2="-4.1" y2="1.2" width="0.127" layer="51"/>
@@ -1327,9 +1329,9 @@ design rules under a new name.</description>
 </element>
 <element name="P1R3" library="SparkFun" package="0603-RES" value="720" x="53.105" y="23.49" rot="MR0"/>
 <element name="P1R2" library="SparkFun" package="0603-RES" value="240" x="50.04" y="23.49" rot="MR0"/>
-<element name="U$3" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="12.83" y="-39.19"/>
+<element name="U$3" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="8.58" y="-49.84"/>
 <element name="U$2" library="ohw-logo" package="OSHW_FILLX150_NOTEXT" value="" x="57.162" y="44.719"/>
-<element name="U$4" library="LITTLEBITS" package="OSHWCREDIT" value="LB_CREDITS" x="-39.63" y="-44.53"/>
+<element name="U$4" library="LITTLEBITS" package="OSHWCREDIT" value="LB_CREDITS" x="-52.38" y="-44.53"/>
 <element name="P1BSF1" library="bitSnap" package="BITSNAP_V03_FEMALE" value="BITSNAP_V03_FEMALE" x="45.1" y="17.9"/>
 <element name="U$1" library="LB_font_JUNE" package="+/-PWR_JACK" value="" x="51.55" y="32.95"/>
 <element name="U$12" library="LITTLEBITS" package="LB_PWR_LEGS" value="" x="41.35" y="39.35"/>

@@ -388,11 +388,13 @@ www.SparkFun.com SKU : Comp-SMDS</description>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 </library>
@@ -1563,7 +1565,7 @@ design rules under a new name.</description>
 </element>
 <element name="I19SW2" library="LITTLEBITS" package="ROLLERSWITCH-OMRON-D2F-01FL-A" value="ROLLERSWITCH-OMRON-SS-5GL2DRIGHTANGLE" x="6.6" y="9.8875" rot="R90"/>
 <element name="U$20" library="ohw-logo" package="OSHW_FILLX150_NOTEXT" value="" x="15.799" y="22.434"/>
-<element name="U$3" library="SparkFun_NEW" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-37.52" y="-59.03"/>
+<element name="U$3" library="SparkFun_NEW" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-33.57" y="-69.13"/>
 <element name="I19BSF1" library="bitSnap" package="BITSNAP_V03_FEMALE" value="BITSNAP_V03_FEMALE" x="3.75" y="0"/>
 <element name="I19BSM1" library="bitSnap" package="BITSNAP_V03_MALE" value="BITSNAP_V03_MALE" x="16.65" y="32.7" rot="R180"/>
 <element name="FRAME1" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="0" y="0"/>

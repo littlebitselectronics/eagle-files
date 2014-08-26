@@ -4365,11 +4365,13 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -4426,10 +4428,12 @@ Version 1.2</text>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4950,7 +4954,7 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <sheet>
 <plain>
 <text x="241.3" y="12.7" size="2.54" layer="91">2</text>
-<text x="48.26" y="17.78" size="1.778" layer="97">in collaboration with Chris taylor from SparkFun</text>
+<text x="62.738" y="19.812" size="1.27" layer="97">in collaboration with Chris taylor from SparkFun</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

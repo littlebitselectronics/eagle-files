@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6910,11 +6910,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="3.25" y1="-2.05" x2="3.7" y2="-2.05" width="0.127" layer="21"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="OSHW-LOGO-M">
 <polygon width="0.15" layer="50">
@@ -7412,10 +7414,12 @@ Version 1.2</text>
 <pin name="2" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -11703,7 +11707,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="W6JP2" library="SparkFun" deviceset="M03" device="PTH" value="Analog IO"/>
 <part name="U$52" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
 <part name="U$54" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
-<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11800,7 +11803,7 @@ http://arduino.cc</text>
 <instance part="W6R26" gate="G$1" x="185.42" y="88.9" rot="R90"/>
 <instance part="P+22" gate="1" x="177.8" y="81.28" rot="MR180"/>
 <instance part="P+23" gate="1" x="185.42" y="81.28" rot="MR180"/>
-<instance part="U$67" gate="G$1" x="5.08" y="7.62"/>
+<instance part="U$67" gate="G$1" x="5.08" y="15.24"/>
 <instance part="W6C28" gate="G$1" x="220.98" y="157.48" rot="R90"/>
 <instance part="W6C29" gate="G$1" x="220.98" y="147.32" rot="R90"/>
 <instance part="P+26" gate="1" x="228.6" y="152.4" rot="MR90"/>
@@ -12563,7 +12566,6 @@ http://arduino.cc</text>
 <instance part="W6R2" gate="G$1" x="66.04" y="139.7"/>
 <instance part="U$54" gate="G$1" x="0" y="0"/>
 <instance part="U$54" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="22.86" y="12.7"/>
 </instances>
 <busses>
 </busses>

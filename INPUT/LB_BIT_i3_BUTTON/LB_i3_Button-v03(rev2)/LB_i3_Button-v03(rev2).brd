@@ -368,11 +368,13 @@
 <library name="LITTLEBITS">
 <packages>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="SWITCH-TH_CAP">
 <wire x1="0" y1="0" x2="12" y2="0" width="0.127" layer="21"/>
@@ -1507,7 +1509,7 @@ design rules under a new name.</description>
 <element name="I3C1" library="SparkFun" package="0603-CAP" value="0.1uF" x="1.92" y="19.49" rot="R270"/>
 <element name="U$1" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-14.19" y="-14.29"/>
 <element name="U$3" library="ohw-logo" package="OSHW_FILLX150_NOTEXT" value="" x="15.809" y="15.749"/>
-<element name="U$5" library="LITTLEBITS" package="OSHWCREDIT" value="LB_CREDITS" x="8.42" y="-23.33"/>
+<element name="U$5" library="LITTLEBITS" package="OSHWCREDIT" value="LB_CREDITS" x="-6.18" y="-18.78"/>
 <element name="I3SW1" library="LITTLEBITS" package="SWITCH-TH_CAP" value="SWITCH-TH_CAP" x="4.2" y="7.05"/>
 <element name="I3BSF1" library="bitSnap" package="BITSNAP_V03_FEMALE" value="BITSNAP_V03_FEMALE" x="3.75" y="0"/>
 <element name="I3BSM1" library="bitSnap" package="BITSNAP_V03_MALE" value="BITSNAP_V03_MALE" x="16.65" y="26.1" rot="R180"/>

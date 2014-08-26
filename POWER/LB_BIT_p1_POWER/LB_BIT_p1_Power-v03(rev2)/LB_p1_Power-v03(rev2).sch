@@ -5677,11 +5677,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <library name="LITTLEBITS">
 <packages>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="LITTLEBITS_SWITCH-DICGU_SPDT">
 <wire x1="-4.1" y1="2.2" x2="-4.1" y2="1.2" width="0.127" layer="51"/>
@@ -5777,10 +5779,12 @@ Version 1.2</text>
 </packages>
 <symbols>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="LITTLEBITS_TOGGLE-3T">
 <circle x="2.54" y="2.54" radius="0.3592" width="0.2032" layer="94"/>

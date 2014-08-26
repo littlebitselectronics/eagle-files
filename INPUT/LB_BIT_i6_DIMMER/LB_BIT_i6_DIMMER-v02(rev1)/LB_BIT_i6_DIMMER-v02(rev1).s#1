@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -63,6 +63,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -79,12 +80,32 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LB_TEXT" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -110,6 +131,12 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -4453,12 +4480,11 @@ Various fiducial points for machine vision alignment.</description>
 <rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="-25.4" y="13.97" size="1.27" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-13.97" y="12.065" size="1.27" layer="27">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-16.51" y="10.16" size="1.27" layer="27">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-10.795" y="8.255" size="1.27" layer="27">http://freedomdefined.org/OSHW</text>
-<text x="-7.62" y="6.35" size="1.27" layer="27">Designed by: littleBits.cc</text>
-<text x="-15.875" y="4.445" size="1.27" layer="27">in collaboration with Chris Taylor from SparkFun</text>
+<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
+Statement of Principles by making the circuit designs for its 
+modules available pursuant to the CERN Hardware License, 
+Version 1.2</text>
 </package>
 </packages>
 <symbols>
@@ -4481,12 +4507,10 @@ Various fiducial points for machine vision alignment.</description>
 <pin name="V-" x="-2.54" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="12.7" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc</text>
-<text x="0" y="0" size="1.778" layer="97">in collaboration with Chris Taylor from SparkFun</text>
+<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
+Statement of Principles by making the circuit designs for its
+modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4509,9 +4533,9 @@ Various fiducial points for machine vision alignment.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LB_CREDITS">
+<deviceset name="OSHWCREDIT">
 <gates>
-<gate name="G$1" symbol="OSHWCREDIT" x="-25.4" y="2.54"/>
+<gate name="G$1" symbol="OSHWCREDIT" x="-12.7" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="OSHWCREDIT">
@@ -4545,7 +4569,7 @@ Various fiducial points for machine vision alignment.</description>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="I6U1" library="LITTLEBITS" deviceset="LV321" device=""/>
-<part name="U$1" library="LITTLEBITS" deviceset="LB_CREDITS" device=""/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4568,7 +4592,7 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="GND1" gate="1" x="101.6" y="86.36"/>
 <instance part="GND2" gate="1" x="127" y="99.06"/>
 <instance part="I6U1" gate="G$1" x="127" y="109.22"/>
-<instance part="U$1" gate="G$1" x="40.64" y="15.24"/>
+<instance part="U$1" gate="G$1" x="71.12" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -4656,4 +4680,10 @@ Various fiducial points for machine vision alignment.</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

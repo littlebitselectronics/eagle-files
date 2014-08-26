@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -418,43 +418,19 @@ quarter-circle legs are 2  intervals apart</text>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
 <package name="CAP-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="CAP-0805">
-<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="CAP-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="CAP-1206">
@@ -487,36 +463,20 @@ quarter-circle legs are 2  intervals apart</text>
 <text x="-2.032" y="-0.508" size="0.8128" layer="21" ratio="15">&gt;Value</text>
 </package>
 <package name="RES-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
-</package>
-<package name="RES-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
 </package>
 <package name="RES-0805">
 <wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
@@ -645,7 +605,7 @@ quarter-circle legs are 2  intervals apart</text>
 <smd name="28" x="-1.35" y="2" dx="0.75" dy="0.2" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
 <wire x1="-1.35" y1="2.3" x2="-1.35" y2="1.7" width="0.3" layer="29"/>
 <wire x1="-1.35" y1="2.27" x2="-1.35" y2="1.73" width="0.2" layer="31"/>
-<circle x="-2.2" y="2" radius="0.1" width="0.245" layer="21"/>
+<circle x="-2.2" y="2" radius="0.1" width="0.245" layer="51"/>
 <pad name="TH@1" x="-0.5588" y="0.5588" drill="0.4064" diameter="0.4064"/>
 <pad name="TH@2" x="0.5588" y="0.5588" drill="0.4064" diameter="0.4064"/>
 <pad name="TH@4" x="0.5588" y="-0.5588" drill="0.4064" diameter="0.4064"/>
@@ -986,11 +946,63 @@ quarter-circle legs are 2  intervals apart</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
+</package>
+<package name="CAP-0805">
+<smd name="1" x="-0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.762" y="0.9255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.297" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.371" y1="0.66" x2="0.391" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.346" y1="-0.66" x2="0.391" y2="-0.66" width="0.1016" layer="51"/>
+<rectangle x1="-1.0822" y1="-0.73" x2="-0.3321" y2="0.73" layer="51"/>
+<rectangle x1="0.3321" y1="-0.73" x2="1.0822" y2="0.73" layer="51"/>
+</package>
+<package name="CAP-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="RES-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.15" y1="-0.25" x2="0.15" y2="0.25" layer="21"/>
+</package>
+<package name="SIP6-SM-0.1IN-NOS.S-MIN">
+<smd name="3" x="-1.27" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="4" x="1.27" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="5" x="3.81" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="6" x="6.35" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="2" x="-3.81" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="1" x="-6.35" y="0" dx="1.27" dy="1.27" layer="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -4837,10 +4849,12 @@ Version 1.2</text>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5176,6 +5190,19 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </technologies>
 </device>
 <device name="0.1INCH_NO_SILKSCREEN" package="SIP6-SM-0.1IN-NOS.S.">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.1INCH_NO_SILKSCREEN_SMALL" package="SIP6-SM-0.1IN-NOS.S-MIN">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -5573,12 +5600,12 @@ Model No: TER-04S</description>
 <instance part="I22TVS9" gate="G$1" x="71.12" y="86.36"/>
 <instance part="I22TVS10" gate="G$1" x="81.28" y="86.36"/>
 <instance part="GND32" gate="1" x="45.72" y="73.66"/>
-<instance part="U$11" gate="G$1" x="134.62" y="10.16"/>
+<instance part="U$11" gate="G$1" x="99.06" y="10.16"/>
 <instance part="I22R5" gate="G$1" x="127" y="48.26" rot="R90"/>
 <instance part="GND34" gate="1" x="101.6" y="60.96" rot="R90"/>
 <instance part="U$14" gate="G$1" x="0" y="0"/>
 <instance part="U$14" gate="G$2" x="147.32" y="0"/>
-<instance part="U$15" gate="G$1" x="43.18" y="2.54"/>
+<instance part="U$15" gate="G$1" x="10.16" y="7.62"/>
 </instances>
 <busses>
 </busses>

@@ -4550,19 +4550,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 <library name="LITTLEBITS">
 <packages>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 <symbols>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4628,7 +4632,7 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <instance part="U$14" gate="G$1" x="139.7" y="111.76" rot="R270"/>
 <instance part="U$15" gate="G$1" x="83.82" y="101.6"/>
 <instance part="U$2" gate="G$1" x="134.62" y="10.16"/>
-<instance part="U$1" gate="G$1" x="55.88" y="5.08"/>
+<instance part="U$1" gate="G$1" x="48.26" y="7.62"/>
 </instances>
 <busses>
 </busses>

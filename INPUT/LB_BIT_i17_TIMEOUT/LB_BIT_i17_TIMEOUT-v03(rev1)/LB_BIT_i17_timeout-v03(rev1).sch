@@ -198,13 +198,6 @@
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
-<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
-Statement of Principles by making the circuit designs for its 
-modules available pursuant to the CERN Hardware License, 
-Version 1.2</text>
-</package>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
@@ -278,6 +271,15 @@ Version 1.2</text>
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
+<package name="OSHWCREDIT">
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
+Statement of Principles by making the circuit designs for its 
+modules available pursuant to the CERN Hardware License, 
+Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -321,12 +323,6 @@ Version 1.2</text>
 <pin name="A" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="E" x="-5.08" y="12.7" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
-<text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
-Statement of Principles by making the circuit designs for its
-modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -380,6 +376,14 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <wire x1="86.36" y1="5.08" x2="86.36" y2="25.4" width="0.254" layer="94"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
+<symbol name="OSHWCREDIT">
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
+<text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
+Statement of Principles by making the circuit designs for its
+modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="POT-TRIM-SMD-BOURNS-3303">
@@ -430,18 +434,6 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSHWCREDIT">
-<gates>
-<gate name="G$1" symbol="OSHWCREDIT" x="-12.7" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="OSHWCREDIT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FRAME-LETTER-OHW">
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
@@ -449,6 +441,18 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </gates>
 <devices>
 <device name="OHW" package="FABDWG01-OHW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSHWCREDIT">
+<gates>
+<gate name="G$1" symbol="OSHWCREDIT" x="-12.7" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="OSHWCREDIT">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6537,8 +6541,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="I17BSM1" library="bitSnap" deviceset="BITSNAP_V03_MALE" device=""/>
 <part name="I17BSF1" library="bitSnap" deviceset="BITSNAP_V03_FEMALE" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
 <part name="U$2" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6587,9 +6591,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="I17BSM1" gate="G$1" x="27.94" y="91.44"/>
 <instance part="I17BSF1" gate="G$1" x="205.74" y="88.9"/>
 <instance part="GND7" gate="1" x="121.92" y="71.12"/>
-<instance part="U$1" gate="G$1" x="66.04" y="7.62"/>
 <instance part="U$2" gate="G$1" x="0" y="0"/>
 <instance part="U$2" gate="G$2" x="147.32" y="0"/>
+<instance part="U$1" gate="G$1" x="45.72" y="10.16"/>
 </instances>
 <busses>
 </busses>

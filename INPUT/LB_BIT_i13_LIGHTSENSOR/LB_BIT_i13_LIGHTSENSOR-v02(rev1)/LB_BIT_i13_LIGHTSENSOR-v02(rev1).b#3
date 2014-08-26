@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16154,7 +16154,7 @@ design rules under a new name.</description>
 <element name="I13FD2" library="SparkFun" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="17.78" y="15.24"/>
 <element name="I13U1" library="LITTLEBITS" package="SC70" value="LV321" x="10.16" y="10.16" rot="R270"/>
 <element name="U$6" library="ohw-logo" package="OSHW_FILLX150_NOTEXT" value="" x="8.509" y="14.859"/>
-<element name="U$7" library="littleBits_Text" package="LB_V02" value="" x="0" y="3.81"/>
+<element name="U$7" library="littleBits_Text" package="LB_V02" value="" x="-10.16" y="3.81"/>
 <element name="U$2" library="littleBits_font" package="I" value="" x="18.5166" y="13.0302" rot="R270"/>
 <element name="U$3" library="littleBits_font" package="1" value="" x="18.5928" y="12.6492" rot="R270"/>
 <element name="U$5" library="littleBits_font" package="3" value="" x="18.5928" y="11.811" rot="R270"/>

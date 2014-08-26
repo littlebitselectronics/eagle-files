@@ -4318,11 +4318,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <library name="LITTLEBITS">
 <packages>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="SWITCH-TH_CAP">
 <wire x1="0" y1="0" x2="12" y2="0" width="0.127" layer="21"/>
@@ -4411,10 +4413,12 @@ Version 1.2</text>
 </packages>
 <symbols>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="SWITCH-MOMENTARY-4T">
 <wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
@@ -5507,7 +5511,7 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <instance part="I3R1" gate="G$1" x="134.62" y="88.9" rot="R270"/>
 <instance part="I3C1" gate="G$1" x="116.84" y="88.9" rot="R180"/>
 <instance part="U$1" gate="G$1" x="132.08" y="12.7"/>
-<instance part="U$5" gate="G$1" x="58.42" y="12.7"/>
+<instance part="U$5" gate="G$1" x="43.18" y="12.7"/>
 <instance part="I3SW1" gate="G$1" x="124.46" y="96.52" smashed="yes">
 <attribute name="NAME" x="121.92" y="103.124" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.3" y="107.95" size="1.778" layer="96"/>

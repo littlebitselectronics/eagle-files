@@ -1428,11 +1428,13 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 </library>
@@ -1655,7 +1657,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.2485" y="19.2735" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="10.503" y="20.166" size="0.4064" layer="27" rot="R270"/>
 </element>
-<element name="U$2" library="SparkFun_NEW" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-42.12" y="-63.31"/>
+<element name="U$2" library="SparkFun_NEW" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-28.87" y="-67.31"/>
 <element name="W3BSM1" library="bitSnap" package="BITSNAP_V03_MALE" value="BITSNAP_V03_MALE" x="28.2" y="13.25" rot="R90"/>
 <element name="W3BSM2" library="bitSnap" package="BITSNAP_V03_MALE" value="BITSNAP_V03_MALE" x="2.2" y="26.15" rot="R270"/>
 <element name="W3BSF1" library="bitSnap" package="BITSNAP_V03_FEMALE" value="BITSNAP_V03_FEMALE" x="8.75" y="0"/>
@@ -1671,7 +1673,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="16.612" y="24.804" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="U$16" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="0" y="0"/>
-<element name="U$1" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-95.4" y="-68.6"/>
+<element name="U$1" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-90.1" y="-61.4"/>
 </elements>
 <signals>
 <signal name="GND">

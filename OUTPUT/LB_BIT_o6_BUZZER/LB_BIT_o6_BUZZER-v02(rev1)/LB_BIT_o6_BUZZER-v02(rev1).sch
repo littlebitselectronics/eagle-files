@@ -145,21 +145,6 @@
 <libraries>
 <library name="LITTLEBITS">
 <packages>
-<package name="SMA-DIODE">
-<description>&lt;B&gt;Diode&lt;/B&gt;&lt;p&gt;
-Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140</description>
-<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
-<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="21"/>
-<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
-<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
-<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="DIODE-0.4">
 <wire x1="8.255" y1="1.27" x2="6.985" y2="1.27" width="0.254" layer="21"/>
 <wire x1="6.985" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="21"/>
@@ -185,6 +170,11 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <smd name="2" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
 <text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.9" y1="0.65" x2="-0.5" y2="0.65" width="0.2032" layer="51"/>
+<wire x1="-0.5" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="51"/>
+<wire x1="-0.9" y1="-0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="51"/>
+<wire x1="-0.5" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="51"/>
+<wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="51"/>
 </package>
 <package name="DOIDE-1N4148">
 <wire x1="1.9" y1="1" x2="1.9" y2="-1" width="0.127" layer="21"/>
@@ -226,7 +216,7 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="-2.032" y="-0.508" size="0.8128" layer="21">&gt;Value</text>
 </package>
-<package name="SC70">
+<package name="SC70-5">
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
@@ -240,9 +230,9 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-0.762" y="-0.254" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.85" y1="0.45" x2="-0.45" y2="1.2" layer="31"/>
 <rectangle x1="0.45" y1="0.45" x2="0.85" y2="1.2" layer="31"/>
-<rectangle x1="-0.8382" y1="-1.1684" x2="-0.508" y2="-0.4826" layer="31"/>
-<rectangle x1="-0.1651" y1="-1.1684" x2="0.1651" y2="-0.4826" layer="31"/>
-<rectangle x1="0.508" y1="-1.1684" x2="0.8382" y2="-0.4826" layer="31"/>
+<rectangle x1="-0.85" y1="-1.2" x2="-0.45" y2="-0.45" layer="31"/>
+<rectangle x1="-0.2" y1="-1.2" x2="0.2" y2="-0.45" layer="31"/>
+<rectangle x1="0.45" y1="-1.2" x2="0.85" y2="-0.45" layer="31"/>
 </package>
 <package name="BUZZER-JSH2317AT">
 <wire x1="0" y1="0" x2="16.5" y2="0" width="0.127" layer="21"/>
@@ -255,11 +245,64 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="11.5" y="13" size="2.54" layer="21">-</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
+</package>
+<package name="SMA-DIODE">
+<description>&lt;B&gt;Diode&lt;/B&gt;&lt;p&gt;
+Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140</description>
+<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="51"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="51"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="51"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="51"/>
+<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
+<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
+<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOD123">
+<description>&lt;b&gt;Diode&lt;/b&gt;</description>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
+<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
+<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
+<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
+<text x="-0.889" y="-0.381" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-2.7305" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -280,6 +323,7 @@ Version 1.2</text>
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 <pin name="V+" x="-2.54" y="7.62" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="V-" x="-2.54" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
+<text x="0" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="DIODE">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -291,6 +335,8 @@ Version 1.2</text>
 <text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="-4.8514" size="1.778" layer="97">&gt;LB_PN</text>
 </symbol>
 <symbol name="BUZZER-KSS-J4B20">
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
@@ -307,10 +353,12 @@ Version 1.2</text>
 <pin name="_" x="-2.54" y="0" length="short"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -327,7 +375,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LB_PN" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PTH" package="DIODE-0.4">
@@ -345,7 +395,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LB_PN" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PTH2" package="DOIDE-1N4148">
@@ -363,10 +415,23 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LB_PN" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PTH3" package="DIODE-0.3">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LB_PN" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SOD123" package="SOD123">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -398,7 +463,19 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <gate name="G$1" symbol="OPAMP" x="5.08" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="SC70">
+<device name="" package="SC70-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="1"/>
+<connect gate="G$1" pin="-IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="V+" pad="5"/>
+<connect gate="G$1" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23-5" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="+IN" pad="1"/>
 <connect gate="G$1" pin="-IN" pad="3"/>
@@ -4592,7 +4669,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U$16" gate="G$1" x="132.08" y="12.7"/>
-<instance part="U$1" gate="G$1" x="71.12" y="7.62"/>
+<instance part="U$1" gate="G$1" x="45.72" y="10.16"/>
 </instances>
 <busses>
 </busses>

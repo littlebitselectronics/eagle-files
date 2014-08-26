@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -144,11 +144,11 @@
 <wire x1="0" y1="0" x2="20.4" y2="0" width="0" layer="20"/>
 <wire x1="20.4" y1="0" x2="20.4" y2="8.45" width="0" layer="20"/>
 <text x="20.05" y="3.55" size="0.8128" layer="16" font="vector" ratio="12" rot="MR270">rev2</text>
-<dimension x1="3.8" y1="13.45" x2="16.6" y2="13.45" x3="10.2" y3="24.65" layer="47" dtype="horizontal"/>
-<dimension x1="20.4" y1="8.95" x2="0" y2="8.95" x3="10.2" y3="32.1" layer="47" dtype="horizontal"/>
-<dimension x1="-0.5" y1="0" x2="-0.5" y2="8.45" x3="-4.2" y3="4.225" layer="47" dtype="vertical"/>
-<dimension x1="-0.5" y1="0" x2="3.3" y2="12.95" x3="-12.3" y3="6.475" layer="47" dtype="vertical"/>
-<dimension x1="4.35" y1="8.95" x2="16.05" y2="8.95" x3="10.2" y3="18.35" layer="47" dtype="horizontal"/>
+<dimension x1="3.8" y1="13.45" x2="16.6" y2="13.45" x3="10.2" y3="24.65" textsize="3.5" layer="47" dtype="horizontal"/>
+<dimension x1="20.4" y1="8.95" x2="0" y2="8.95" x3="10.2" y3="32.1" textsize="3.5" layer="47" dtype="horizontal"/>
+<dimension x1="-0.5" y1="0" x2="-0.5" y2="8.45" x3="-4.2" y3="4.225" textsize="3.5" layer="47" dtype="vertical"/>
+<dimension x1="-0.5" y1="0" x2="3.3" y2="12.95" x3="-12.3" y3="6.475" textsize="3.5" layer="47" dtype="vertical"/>
+<dimension x1="4.35" y1="8.95" x2="16.05" y2="8.95" x3="10.2" y3="18.35" textsize="3.5" layer="47" dtype="horizontal"/>
 <wire x1="20.4" y1="8.95" x2="20.9" y2="8.95" width="1" layer="46"/>
 <wire x1="20.9" y1="8.95" x2="20.9" y2="-0.5" width="1" layer="46"/>
 <wire x1="20.9" y1="-0.5" x2="-0.5" y2="-0.5" width="1" layer="46"/>
@@ -846,7 +846,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -994,7 +994,7 @@ design rules under a new name.</description>
 <element name="W1JP2" library="SparkFun" package="1X03-1MM-RA" value="" x="10.21" y="5.08"/>
 <element name="U$3" library="SparkFun" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-23.75" y="-20.79"/>
 <element name="U$4" library="ohw-logo" package="OSHW_FILLX150_NOTEXT" value="" x="15.759" y="2.579"/>
-<element name="U$2" library="LITTLEBITS" package="OSHWCREDIT" value="LB_CREDITS" x="5.92" y="-29.36"/>
+<element name="U$2" library="LITTLEBITS" package="OSHWCREDIT" value="LB_CREDITS" x="1.07" y="-28.81"/>
 <element name="W1BSM1" library="bitSnap" package="BITSNAP_V03_MALE" value="BITSNAP_V03_MALE" x="16.65" y="12.95" rot="R180"/>
 <element name="FRAME1" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="-168.96" y="-81.05"/>
 </elements>

@@ -506,11 +506,13 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <rectangle x1="-0.15" y1="-0.25" x2="0.15" y2="0.25" layer="21"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -656,10 +658,12 @@ Version 1.2</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5730,7 +5734,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND3" gate="1" x="121.92" y="110.744"/>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
 <instance part="U$1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$2" gate="G$1" x="66.04" y="5.08"/>
+<instance part="U$2" gate="G$1" x="48.26" y="10.16"/>
 </instances>
 <busses>
 </busses>

@@ -1563,11 +1563,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <smd name="-" x="11.55" y="0.05" dx="2.6" dy="3" layer="1" rot="R90"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
@@ -1696,10 +1698,12 @@ Version 1.2</text>
 <pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pwr"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -6154,7 +6158,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND13" gate="1" x="127" y="165.1" rot="R90"/>
 <instance part="U$4" gate="G$1" x="129.54" y="12.7"/>
 <instance part="P2BSF1" gate="G$1" x="170.18" y="73.66"/>
-<instance part="U$3" gate="G$1" x="66.04" y="5.08"/>
+<instance part="U$3" gate="G$1" x="45.72" y="10.16"/>
 <instance part="U$6" gate="G$1" x="0" y="0"/>
 <instance part="U$6" gate="G$2" x="147.32" y="0"/>
 </instances>

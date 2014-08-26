@@ -974,11 +974,56 @@ Various fiducial points for machine vision alignment.</description>
 <text x="1.905" y="3.175" size="0.381" layer="27">&gt;VALUE</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
+</package>
+<package name="USB-MICROB-AUK">
+<wire x1="3.7" y1="-0.565" x2="3.1" y2="-0.565" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-0.565" x2="-3" y2="-0.565" width="0.127" layer="21"/>
+<wire x1="-3" y1="-0.565" x2="-3.7" y2="-0.565" width="0.127" layer="21"/>
+<wire x1="3.71" y1="-0.56" x2="3.7" y2="-0.565" width="0.127" layer="21"/>
+<wire x1="-3.685" y1="-0.53" x2="-4" y2="-1.16" width="0.127" layer="21"/>
+<wire x1="3.69" y1="-0.54" x2="3.995" y2="-1.16" width="0.127" layer="21"/>
+<wire x1="-3" y1="-0.565" x2="-3" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-3" y1="-0.9" x2="-2.82" y2="-1.065" width="0.127" layer="21" curve="90.063697"/>
+<wire x1="3.1" y1="-0.565" x2="3.1" y2="-0.87" width="0.127" layer="21"/>
+<wire x1="3.1" y1="-0.87" x2="2.82" y2="-1.065" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.82" y1="-1.065" x2="0" y2="-1.065" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.065" x2="-2.82" y2="-1.065" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.065" x2="0.025" y2="-1.06" width="0.127" layer="21" curve="90"/>
+<wire x1="-3.7" y1="3.67" x2="-3.7" y2="2.91" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-0.565" x2="-3.7" y2="0.3" width="0.127" layer="21"/>
+<wire x1="3.71" y1="3.57" x2="3.7" y2="3.67" width="0.127" layer="21"/>
+<wire x1="3.7" y1="3.67" x2="3.7" y2="2.915" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-0.565" x2="3.7" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="3.67" x2="-2.67" y2="3.67" width="0.127" layer="21"/>
+<wire x1="3.7" y1="3.67" x2="2.7335" y2="3.67" width="0.127" layer="21"/>
+<wire x1="-4.1925" y1="2.07" x2="-3.175" y2="2.07" width="0.127" layer="46" curve="-180"/>
+<wire x1="-3.175" y1="1.47" x2="-4.1925" y2="1.47" width="0.127" layer="46" curve="-180"/>
+<wire x1="-4.1925" y1="2.07" x2="-4.1925" y2="1.47" width="0.127" layer="46"/>
+<wire x1="-3.175" y1="2.07" x2="-3.175" y2="1.47" width="0.127" layer="46"/>
+<wire x1="3.175" y1="2.07" x2="4.1925" y2="2.07" width="0.127" layer="46" curve="-180"/>
+<wire x1="4.1925" y1="1.47" x2="3.175" y2="1.47" width="0.127" layer="46" curve="-180"/>
+<wire x1="3.175" y1="2.07" x2="3.175" y2="1.47" width="0.127" layer="46"/>
+<wire x1="4.1925" y1="2.07" x2="4.1925" y2="1.47" width="0.127" layer="46"/>
+<smd name="D+" x="0" y="4.37" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="D-" x="-0.65" y="4.37" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="GND" x="1.3" y="4.37" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<smd name="ID" x="0.65" y="4.37" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<pad name="P$1" x="-3.3" y="4.5" drill="0.85" rot="R90"/>
+<pad name="P$2" x="3.3" y="4.5" drill="0.85" rot="R90"/>
+<smd name="P$3" x="-3.725" y="1.775" dx="2.25" dy="1.5" layer="1" rot="R90"/>
+<smd name="P$4" x="3.725" y="1.75" dx="2.25" dy="1.5" layer="1" rot="R90"/>
+<smd name="VBUS" x="-1.3" y="4.37" dx="1.5" dy="0.4" layer="1" rot="R90"/>
+<text x="-3.81" y="5.545" size="0.381" layer="25">&gt;NAME</text>
+<text x="1.905" y="5.545" size="0.381" layer="27">&gt;VALUE</text>
+<hole x="-2" y="3.5" drill="0.8"/>
+<hole x="2" y="3.5" drill="0.8"/>
 </package>
 </packages>
 <symbols>
@@ -991,12 +1036,16 @@ Version 1.2</text>
 <pin name="D-" x="-2.54" y="5.08" visible="pad" length="short"/>
 <pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
 <pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
+<text x="0" y="12.7" size="1.27" layer="95">&gt;Name</text>
+<text x="0" y="10.16" size="1.27" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1007,6 +1056,17 @@ modules available pursuant to the CERN Hardware License, Version 1.2</text>
 </gates>
 <devices>
 <device name="" package="USB-MICROB-ZX62-B-5PA(11)">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="AUK-TH" package="USB-MICROB-AUK">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
@@ -4773,7 +4833,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="P3FD1" gate="G$1" x="152.4" y="30.48"/>
 <instance part="P3FD2" gate="G$1" x="157.48" y="30.48"/>
 <instance part="U$3" gate="G$1" x="129.54" y="12.7"/>
-<instance part="U$2" gate="G$1" x="63.5" y="5.08"/>
+<instance part="U$2" gate="G$1" x="45.72" y="10.16"/>
 </instances>
 <busses>
 </busses>

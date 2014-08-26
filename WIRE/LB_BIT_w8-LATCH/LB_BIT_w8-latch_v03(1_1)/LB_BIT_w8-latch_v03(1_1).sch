@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -311,11 +311,13 @@
 <wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="51"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
@@ -423,13 +425,14 @@ Version 1.2</text>
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="-1.778" width="0.254" layer="94"/>
 <text x="-3.0226" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="4.8514" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="4.8514" y="2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="-1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="5.08" y="-7.62" size="1.778" layer="94" rot="R90">&gt;MPN</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -3986,10 +3989,12 @@ Version 1.2</text>
 </polygon>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -4086,6 +4091,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <technology name="">
 <attribute name="IEC_ESD_PROT" value="+/-18kV" constant="no"/>
 <attribute name="LB_PN" value="?" constant="no"/>
+<attribute name="USUAL_PART_VALUE" value="ESD9B5.0ST5G"/>
 <attribute name="V_CLAMP" value="?" constant="no"/>
 <attribute name="V_OPERATION" value="5V" constant="no"/>
 </technology>
@@ -4098,8 +4104,9 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </connects>
 <technologies>
 <technology name="">
-<attribute name="IEC_ESD_PROT" value="+/-18kV" constant="no"/>
+<attribute name="IEC_ESD_PROT0" value="+/-18kV" constant="no"/>
 <attribute name="LB_PN" value="?" constant="no"/>
+<attribute name="MPN" value="ESD9B5.0ST5G"/>
 <attribute name="V_CLAMP" value="?" constant="no"/>
 <attribute name="V_OPERATION" value="5V" constant="no"/>
 </technology>
@@ -5942,7 +5949,7 @@ Based on the following sources:
 <instance part="P+3" gate="1" x="106.68" y="104.14"/>
 <instance part="P+2" gate="1" x="144.78" y="127"/>
 <instance part="U$1" gate="G$1" x="132.08" y="12.7"/>
-<instance part="U$2" gate="G$1" x="43.18" y="7.62"/>
+<instance part="U$2" gate="G$1" x="50.8" y="12.7"/>
 <instance part="U$12" gate="G$1" x="0" y="0"/>
 <instance part="U$12" gate="G$2" x="147.32" y="0"/>
 </instances>

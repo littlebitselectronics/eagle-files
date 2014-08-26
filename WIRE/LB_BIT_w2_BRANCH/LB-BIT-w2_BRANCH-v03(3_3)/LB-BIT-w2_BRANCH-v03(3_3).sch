@@ -1354,11 +1354,13 @@
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -1477,10 +1479,12 @@ Version 1.2</text>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5515,7 +5519,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND6" gate="1" x="114.3" y="111.76"/>
 <instance part="U$2" gate="G$1" x="0" y="0"/>
 <instance part="U$2" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="60.96" y="10.16"/>
+<instance part="U$1" gate="G$1" x="43.18" y="12.7"/>
 </instances>
 <busses>
 </busses>

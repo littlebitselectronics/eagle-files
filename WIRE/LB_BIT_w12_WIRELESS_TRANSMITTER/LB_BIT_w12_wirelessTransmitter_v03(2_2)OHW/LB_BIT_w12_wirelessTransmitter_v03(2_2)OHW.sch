@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -920,7 +920,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <smd name="28" x="-1.35" y="2" dx="0.75" dy="0.2" layer="1" roundness="100" rot="R270" stop="no" cream="no"/>
 <wire x1="-1.35" y1="2.3" x2="-1.35" y2="1.7" width="0.3" layer="29"/>
 <wire x1="-1.35" y1="2.27" x2="-1.35" y2="1.73" width="0.2" layer="31"/>
-<circle x="-2.2" y="2" radius="0.1" width="0.245" layer="21"/>
+<circle x="-2.2" y="2" radius="0.1" width="0.245" layer="51"/>
 <pad name="TH@1" x="-0.5588" y="0.5588" drill="0.4064" diameter="0.4064"/>
 <pad name="TH@2" x="0.5588" y="0.5588" drill="0.4064" diameter="0.4064"/>
 <pad name="TH@4" x="0.5588" y="-0.5588" drill="0.4064" diameter="0.4064"/>
@@ -931,36 +931,20 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <rectangle x1="0.1" y1="-0.9" x2="0.9" y2="-0.1" layer="31"/>
 </package>
 <package name="RES-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
-</package>
-<package name="RES-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
 </package>
 <package name="RES-0805">
 <wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
@@ -1017,8 +1001,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-0.889" y="-0.381" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-2.7305" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
 <rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
@@ -1026,43 +1010,19 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
 <package name="CAP-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="CAP-0805">
-<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="CAP-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="CAP-1206">
@@ -1131,10 +1091,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<wire x1="-1.7" y1="0.63" x2="-1.7" y2="-0.63" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="0.66" x2="1.7" y2="0.66" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="-0.66" x2="1.7" y2="-0.66" width="0.127" layer="21"/>
-<wire x1="1.7" y1="0.63" x2="1.7" y2="-0.63" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="0.63" x2="-1.7" y2="-0.63" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="0.66" x2="1.7" y2="0.66" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="-0.66" x2="1.7" y2="-0.66" width="0.127" layer="51"/>
+<wire x1="1.7" y1="0.63" x2="1.7" y2="-0.63" width="0.127" layer="51"/>
 </package>
 <package name="CRYSTAL-SMD-7B-SERIES-5X3.2MM">
 <wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.2032" layer="51"/>
@@ -1159,8 +1119,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-147.22" y1="-75.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-75.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-75.54" x2="72.49" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-75.54" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-71.73" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
@@ -1209,12 +1169,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <text x="-17.68" y="-55.22" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
 <wire x1="24.23" y1="-48.87" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
 <text x="53.44" y="-51.41" size="1.27" layer="50">+/- .127mm</text>
-<text x="-130.22" y="-62.54" size="1.778" layer="50">60 East 11th Street</text>
-<text x="-130.22" y="-58.54" size="3" layer="50">littleBits, Inc.</text>
-<text x="-130.22" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
-<text x="-130.22" y="-66.54" size="1.778" layer="50">New York, NY, 10003, USA</text>
-<wire x1="-147.22" y1="-51.54" x2="-91.22" y2="-51.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-51.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
+<text x="-137.84" y="-62.54" size="1.778" layer="50">601 West 26th Street</text>
+<text x="-145.46" y="-58.54" size="2.1844" layer="50">littleBits Electronics, Inc.</text>
+<text x="-137.84" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
+<text x="-141.65" y="-66.54" size="1.778" layer="50">New York, NY, 10001, USA</text>
+<wire x1="-147.22" y1="-51.54" x2="-97.57" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-51.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
 <text x="-12.6" y="-43.79" size="1.27" layer="50">&gt;DRAWING_NAME</text>
 <wire x1="-18.95" y1="-64.11" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-60.3" x2="20.46" y2="-60.3" width="0.2" layer="50"/>
@@ -1357,11 +1317,63 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </polygon>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
+</package>
+<package name="RES-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.15" y1="-0.25" x2="0.15" y2="0.25" layer="21"/>
+</package>
+<package name="CAP-0805">
+<smd name="1" x="-0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.762" y="0.9255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.297" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.371" y1="0.66" x2="0.391" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.346" y1="-0.66" x2="0.391" y2="-0.66" width="0.1016" layer="51"/>
+<rectangle x1="-1.0822" y1="-0.73" x2="-0.3321" y2="0.73" layer="51"/>
+<rectangle x1="0.3321" y1="-0.73" x2="1.0822" y2="0.73" layer="51"/>
+</package>
+<package name="CAP-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="SIP6-SM-0.1IN-NOS.S-MIN">
+<smd name="3" x="-1.27" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="4" x="1.27" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="5" x="3.81" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="6" x="6.35" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="2" x="-3.81" y="0" dx="1.27" dy="1.27" layer="1" roundness="75" rot="R90"/>
+<smd name="1" x="-6.35" y="0" dx="1.27" dy="1.27" layer="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -1418,13 +1430,14 @@ Version 1.2</text>
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="-1.778" width="0.254" layer="94"/>
 <text x="-3.0226" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="4.8514" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="4.8514" y="2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <wire x1="-1.27" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="5.08" y="-7.62" size="1.778" layer="94" rot="R90">&gt;MPN</text>
 </symbol>
 <symbol name="ATMEGA168-28PIN">
 <wire x1="-17.78" y1="33.02" x2="20.32" y2="33.02" width="0.254" layer="94"/>
@@ -1581,6 +1594,8 @@ Version 1.2</text>
 <wire x1="-0.762" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0.254" y1="-2.54" x2="-0.254" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="104" rot="R180">&gt;Name</text>
+<text x="5.08" y="-2.54" size="1.778" layer="104" rot="MR180">&gt;Value</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -5189,10 +5204,12 @@ Version 1.2</text>
 </polygon>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5264,6 +5281,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <technology name="">
 <attribute name="IEC_ESD_PROT" value="+/-18kV" constant="no"/>
 <attribute name="LB_PN" value="?" constant="no"/>
+<attribute name="USUAL_PART_VALUE" value="ESD9B5.0ST5G"/>
 <attribute name="V_CLAMP" value="?" constant="no"/>
 <attribute name="V_OPERATION" value="5V" constant="no"/>
 </technology>
@@ -5276,8 +5294,9 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </connects>
 <technologies>
 <technology name="">
-<attribute name="IEC_ESD_PROT" value="+/-18kV" constant="no"/>
+<attribute name="IEC_ESD_PROT0" value="+/-18kV" constant="no"/>
 <attribute name="LB_PN" value="?" constant="no"/>
+<attribute name="MPN" value="ESD9B5.0ST5G"/>
 <attribute name="V_CLAMP" value="?" constant="no"/>
 <attribute name="V_OPERATION" value="5V" constant="no"/>
 </technology>
@@ -5506,6 +5525,19 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </technologies>
 </device>
 <device name="0.1INCH_NO_SILKSCREEN" package="SIP6-SM-0.1IN-NOS.S.">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.1INCH_NO_SILKSCREEN_SMALL" package="SIP6-SM-0.1IN-NOS.S-MIN">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6266,7 +6298,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U$31" gate="G$1" x="134.62" y="10.16"/>
-<instance part="U$15" gate="G$1" x="43.18" y="5.08"/>
+<instance part="U$15" gate="G$1" x="43.18" y="7.62"/>
 </instances>
 <busses>
 </busses>

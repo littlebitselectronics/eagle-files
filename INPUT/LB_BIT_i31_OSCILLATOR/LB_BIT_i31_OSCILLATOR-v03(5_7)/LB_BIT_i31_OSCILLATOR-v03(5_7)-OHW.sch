@@ -222,8 +222,8 @@
 <smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
 <smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-0.889" y="-0.381" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.9525" y="-2.7305" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
 <rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
@@ -231,36 +231,20 @@
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
 <package name="RES-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
-</package>
-<package name="RES-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
 </package>
 <package name="RES-0805">
 <wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
@@ -286,43 +270,19 @@
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="CAP-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.09" layer="39"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.09" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-1.143" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.9" y="0.8" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1" y="-1.1" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="CAP-0805">
-<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
-<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
-<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="CAP-0402">
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="CAP-1206">
@@ -415,18 +375,20 @@
 <smd name="4" x="0.65" y="0.8" dx="0.4" dy="0.8" layer="1"/>
 <smd name="5" x="0" y="0.8" dx="0.4" dy="0.8" layer="1"/>
 <smd name="6" x="-0.65" y="0.8" dx="0.4" dy="0.8" layer="1"/>
-<text x="-1.1" y="1.45" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.1" y="1.45" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.1" y="-2.065" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="THUMBPOT-BOURNS_3352">
 <circle x="0" y="0" radius="4.450278125" width="0.127" layer="51"/>
 <wire x1="-3.85" y1="-2.25" x2="-3.85" y2="-5.1" width="0.127" layer="51"/>
 <wire x1="-3.85" y1="-5.1" x2="3.85" y2="-5.1" width="0.127" layer="51"/>
 <wire x1="3.85" y1="-5.1" x2="3.85" y2="-2.25" width="0.127" layer="51"/>
-<pad name="3" x="-2.55" y="-1.1" drill="0.6"/>
-<pad name="2" x="0" y="-3.65" drill="0.6"/>
-<pad name="1" x="2.55" y="-1.1" drill="0.6"/>
+<pad name="3" x="-2.55" y="-1.1" drill="0.8" diameter="1.5"/>
+<pad name="2" x="0" y="-3.65" drill="0.8" diameter="1.5"/>
+<pad name="1" x="2.55" y="-1.1" drill="0.8" diameter="1.5"/>
 <wire x1="-0.5" y1="3.45" x2="0.5" y2="3.45" width="0.127" layer="51"/>
+<text x="-3.81" y="-6.35" size="0.8128" layer="25">&gt;Name</text>
+<text x="-3.81" y="-7.62" size="0.8128" layer="27">&gt;Value</text>
 </package>
 <package name="ALPS_POT">
 <wire x1="8" y1="6.7" x2="8" y2="-6.7" width="0.2032" layer="51"/>
@@ -443,6 +405,8 @@
 <text x="5.588" y="-2.794" size="0.8128" layer="51" rot="R90">1</text>
 <text x="5.588" y="-0.254" size="0.8128" layer="51" rot="R90">2</text>
 <text x="5.588" y="2.286" size="0.8128" layer="51" rot="R90">3</text>
+<text x="-5.08" y="7.62" size="1.27" layer="25">&gt;Name</text>
+<text x="-5.08" y="-8.89" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="SMA-DIODE">
 <description>&lt;B&gt;Diode&lt;/B&gt;&lt;p&gt;
@@ -704,6 +668,85 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
 <text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
 <text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
+</package>
+<package name="RES-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.15" y1="-0.25" x2="0.15" y2="0.25" layer="21"/>
+</package>
+<package name="CAP-0805">
+<smd name="1" x="-0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.762" y="0.9255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.297" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.371" y1="0.66" x2="0.391" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.346" y1="-0.66" x2="0.391" y2="-0.66" width="0.1016" layer="51"/>
+<rectangle x1="-1.0822" y1="-0.73" x2="-0.3321" y2="0.73" layer="51"/>
+<rectangle x1="0.3321" y1="-0.73" x2="1.0822" y2="0.73" layer="51"/>
+</package>
+<package name="CAP-0402">
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.55" x2="1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="0.55" x2="1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="1.05" y1="-0.55" x2="-1.05" y2="-0.55" width="0.09" layer="39"/>
+<wire x1="-1.05" y1="-0.55" x2="-1.05" y2="0.55" width="0.09" layer="39"/>
+<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.4064" layer="21"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.9" y="0.7" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-1.1" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="SOT-363_ONSEMI">
+<circle x="-0.7" y="-0.25" radius="0.15" width="0" layer="21"/>
+<wire x1="1" y1="0.55" x2="1" y2="-0.55" width="0.2032" layer="21"/>
+<wire x1="-1" y1="-0.55" x2="-1" y2="0.55" width="0.2032" layer="21"/>
+<smd name="1" x="-0.65" y="-0.92" dx="0.3" dy="0.66" layer="1"/>
+<smd name="2" x="0" y="-0.92" dx="0.3" dy="0.66" layer="1"/>
+<smd name="3" x="0.65" y="-0.92" dx="0.3" dy="0.66" layer="1"/>
+<smd name="4" x="0.65" y="0.92" dx="0.3" dy="0.66" layer="1"/>
+<smd name="5" x="0" y="0.92" dx="0.3" dy="0.66" layer="1"/>
+<smd name="6" x="-0.65" y="0.92" dx="0.3" dy="0.66" layer="1"/>
+<text x="-1.1" y="1.45" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.127" layer="51"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="1" y1="-0.55" x2="-1" y2="-0.55" width="0.127" layer="51"/>
+<wire x1="-1" y1="-0.55" x2="-1" y2="0.6" width="0.127" layer="51"/>
+<wire x1="-0.65" y1="-1.1" x2="-0.65" y2="-0.65" width="0.3048" layer="51"/>
+<wire x1="0" y1="-1.1" x2="0" y2="-0.65" width="0.3048" layer="51"/>
+<wire x1="0.65" y1="-1.1" x2="0.65" y2="-0.65" width="0.3048" layer="51"/>
+<wire x1="-0.65" y1="1.1" x2="-0.65" y2="0.7" width="0.3048" layer="51"/>
+<wire x1="0" y1="1.1" x2="0" y2="0.7" width="0.3048" layer="51"/>
+<wire x1="0.65" y1="1.1" x2="0.65" y2="0.7" width="0.3048" layer="51"/>
+</package>
+<package name="SOD123">
+<description>&lt;b&gt;Diode&lt;/b&gt;</description>
+<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
+<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
+<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
+<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
+<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -4705,13 +4748,13 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRANS-BJT_NPN-DUAL" uservalue="yes">
+<deviceset name="TRANS-BJT_NPN-DUAL" prefix="Q" uservalue="yes">
 <gates>
 <gate name="A" symbol="BJT_NPN" x="0" y="0"/>
 <gate name="B" symbol="BJT_NPN" x="7.62" y="-15.24"/>
 </gates>
 <devices>
-<device name="BC847BS" package="SOT-363_PHILLIPS">
+<device name="-BC847BS" package="SOT-363_PHILLIPS">
 <connects>
 <connect gate="A" pin="B" pad="2"/>
 <connect gate="A" pin="C" pad="6"/>
@@ -4724,6 +4767,19 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <technology name="">
 <attribute name="LB_PN" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="-MBT2222ADW1T1-D" package="SOT-363_ONSEMI">
+<connects>
+<connect gate="A" pin="B" pad="5"/>
+<connect gate="A" pin="C" pad="3"/>
+<connect gate="A" pin="E" pad="4"/>
+<connect gate="B" pin="B" pad="2"/>
+<connect gate="B" pin="C" pad="6"/>
+<connect gate="B" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -4854,6 +4910,15 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <technology name="">
 <attribute name="LB_PN" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SOD123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -5889,8 +5954,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+9" library="SparkFun" deviceset="VCC" device=""/>
 <part name="I31SW1" library="LITTLEBITS" deviceset="AYZ0202" device=""/>
-<part name="I31Q2" library="LITTLEBITS" deviceset="TRANS-BJT_NPN-DUAL" device="BC847BS" value="BC847BS"/>
-<part name="I31Q1" library="LITTLEBITS" deviceset="TRANS-BJT_NPN-DUAL" device="BC847BS" value="BC847BS"/>
+<part name="I31Q2" library="LITTLEBITS" deviceset="TRANS-BJT_NPN-DUAL" device="-BC847BS" value="BC847BS"/>
+<part name="I31Q1" library="LITTLEBITS" deviceset="TRANS-BJT_NPN-DUAL" device="-BC847BS" value="BC847BS"/>
 <part name="I31Q4" library="LITTLEBITS" deviceset="TRANS-BJT_PNP-DUAL" device="BC857" value="BC857"/>
 <part name="I31R4" library="LITTLEBITS" deviceset="RESISTOR" device="0603" value="9.1K"/>
 <part name="I31VR2" library="LITTLEBITS" deviceset="THUMBPOT-BOURNS_3352" device="P" value="2K"/>
@@ -5906,7 +5971,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="I31U2" library="LITTLEBITS" deviceset="LV321" device="SOT23-5" value="MCP6001UT"/>
 <part name="I31R11" library="LITTLEBITS" deviceset="RESISTOR" device="0603" value="10K"/>
-<part name="I31Q3" library="LITTLEBITS" deviceset="TRANS-BJT_NPN-DUAL" device="BC847BS" value="BC847BS"/>
+<part name="I31Q3" library="LITTLEBITS" deviceset="TRANS-BJT_NPN-DUAL" device="-BC847BS" value="BC847BS"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="I31R12" library="LITTLEBITS" deviceset="RESISTOR" device="0603" value="150K"/>

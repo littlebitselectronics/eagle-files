@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -166,7 +166,7 @@
 <wire x1="-7" y1="58.94" x2="-7" y2="7.11" width="1" layer="46"/>
 <text x="-2.6" y="-9.5" size="1.778" layer="46">1mm router path</text>
 <text x="-2.9" y="50" size="1" layer="20" rot="R90">NO COPPER</text>
-<text x="-142.9" y="-18.7" size="1.5" layer="20" ratio="10" rot="SR0">Based on the OLinuXino Nano design by Olimex
+<text x="-145.3" y="-24.6" size="1.5" layer="20" ratio="10" rot="SR0">Based on the OLinuXino Nano design by Olimex
 www.olimex.com</text>
 <text x="-84.589" y="-26.27" size="1.778" layer="144">LAYER-STACK</text>
 <text x="-74.81" y="-29.2037" size="1.778" layer="145">01-16</text>
@@ -1599,11 +1599,13 @@ pads 1.5 x 0.2 mm</description>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 </library>

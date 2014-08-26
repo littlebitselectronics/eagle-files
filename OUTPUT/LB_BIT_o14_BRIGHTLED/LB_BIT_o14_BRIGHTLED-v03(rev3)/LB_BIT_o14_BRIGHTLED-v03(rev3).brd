@@ -1259,11 +1259,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 </library>
@@ -1602,7 +1604,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="1.811" y="18.138" size="0.4064" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="2.193" y="17.316" size="0.4064" layer="28" font="vector" rot="MR270"/>
 </element>
-<element name="U$6" library="SparkFun_NEW" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-33.95" y="-61.05"/>
+<element name="U$6" library="SparkFun_NEW" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-30.75" y="-70.35"/>
 <element name="U$16" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="0" y="0"/>
 <element name="U$1" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-90.9" y="-65.25"/>
 </elements>

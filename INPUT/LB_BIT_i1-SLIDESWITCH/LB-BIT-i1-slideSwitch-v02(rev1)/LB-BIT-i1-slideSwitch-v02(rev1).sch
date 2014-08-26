@@ -273,11 +273,13 @@
 <pad name="O" x="9" y="3" drill="0.9"/>
 </package>
 <package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
+<text x="1.27" y="-2.54" size="1.27" layer="50">Designed by: littleBits.cc</text>
 <text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
 Statement of Principles by making the circuit designs for its 
 modules available pursuant to the CERN Hardware License, 
 Version 1.2</text>
+<text x="1.27" y="-8.89" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="50">
@@ -406,10 +408,12 @@ Version 1.2</text>
 <pin name="O" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
+<text x="0.254" y="1.27" size="1.27" layer="97">Designed by: littleBits.cc</text>
 <text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
 Statement of Principles by making the circuit designs for its
 modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="0" y="-5.08" size="1.4224" layer="97">littleBits, littleBits logo, Bits, cloudBit, are 
+trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -4352,7 +4356,7 @@ Various fiducial points for machine vision alignment.</description>
 <instance part="I1FD2" gate="G$1" x="17.78" y="5.08"/>
 <instance part="I1R2" gate="G$1" x="5.08" y="10.16" rot="R90"/>
 <instance part="U$1" gate="G$1" x="-35.56" y="-15.24"/>
-<instance part="U$2" gate="G$1" x="30.48" y="-7.62"/>
+<instance part="U$2" gate="G$1" x="30.48" y="-17.78"/>
 </instances>
 <busses>
 </busses>

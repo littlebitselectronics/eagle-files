@@ -703,13 +703,6 @@
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="THUMBPOT-BOURNS_3352">
 <circle x="0" y="0" radius="4.450278125" width="0.127" layer="51"/>
 <wire x1="-3.85" y1="-2.25" x2="-3.85" y2="-5.1" width="0.127" layer="51"/>
@@ -852,6 +845,13 @@
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.15" y1="-0.25" x2="0.15" y2="0.25" layer="21"/>
+</package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -4574,13 +4574,6 @@
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
-<symbol name="OSHWCREDIT-KORG">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
-</symbol>
 <symbol name="POTENTIOMETER">
 <wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
 <wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
@@ -4615,6 +4608,13 @@
 <text x="0" y="8.382" size="1.778" layer="95">&gt;NAME</text>
 <pin name="1" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="10.16" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="OSHWCREDIT-KORG">
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
+<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4962,18 +4962,6 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSHWCREDIT-KORG">
-<gates>
-<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
-</gates>
-<devices>
-<device name="" package="OSHWCREDIT-KORG">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="THUMBPOT-BOURNS_3352">
 <gates>
 <gate name="G$1" symbol="POTENTIOMETER" x="0" y="0"/>
@@ -5047,6 +5035,18 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSHWCREDIT-KORG">
+<gates>
+<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSHWCREDIT-KORG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6040,7 +6040,6 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <part name="O24R6" library="LITTLEBITS" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
 <part name="$1_28_$" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
-<part name="$1_27_$" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 <part name="O24C6" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="0.1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="O24VR1" library="LITTLEBITS" deviceset="THUMBPOT-BOURNS_3352" device="P"/>
@@ -6062,6 +6061,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <part name="O24C1" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="1000pF"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="O24C2" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="0.1uF"/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6119,7 +6119,6 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </instance>
 <instance part="P+5" gate="1" x="78.74" y="111.76"/>
 <instance part="$1_28_$" gate="G$1" x="132.08" y="12.7"/>
-<instance part="$1_27_$" gate="G$1" x="22.86" y="2.54"/>
 <instance part="O24C6" gate="G$1" x="116.84" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="115.824" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.824" y="94.361" size="1.778" layer="96"/>
@@ -6159,6 +6158,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <attribute name="NAME" x="70.104" y="86.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.644" y="84.201" size="1.778" layer="96"/>
 </instance>
+<instance part="U$1" gate="G$1" x="55.88" y="5.08"/>
 </instances>
 <busses>
 </busses>

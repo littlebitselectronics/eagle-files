@@ -1554,7 +1554,7 @@ design rules under a new name.</description>
 <element name="W7BSM1" library="bitSnap" package="BITSNAP_V03_MALE" value="BITSNAP_V03_MALE" x="43.05" y="19.5" rot="R180"/>
 <element name="FRAME1" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="28.44" y="-5.85"/>
 <element name="U$12" library="LITTLEBITS" package="OSHWCREDIT" value="OSHWCREDIT" x="-63.75" y="-71.75"/>
-<element name="U$1" library="LITTLEBITS" package="OSHW-LOGO-L" value="" x="-6.7" y="-67.1"/>
+<element name="U$2" library="LITTLEBITS" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-9.45" y="-66.55"/>
 </elements>
 <signals>
 <signal name="N$1">
