@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -85,7 +85,9 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="LB_TEXT" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -133,6 +135,8 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="225" name="225bmp" color="26" fill="10" visible="no" active="yes"/>
 <layer number="226" name="226bmp" color="27" fill="10" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -4290,17 +4294,18 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <library name="LITTLEBITS">
 <packages>
 <package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="-17.78" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="-17.78" y="3.175" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are</text>
+<text x="-17.78" y="1.27" size="1.27" layer="50">trademarks of littleBits Electronics Inc.</text>
 </package>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-147.22" y1="-75.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-147.22" y1="-75.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-75.54" x2="-18.95" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-75.54" x2="72.49" y2="-75.54" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-75.54" x2="72.49" y2="-71.73" width="0.2" layer="50"/>
 <wire x1="72.49" y1="-71.73" x2="72.49" y2="-67.92" width="0.2" layer="50"/>
@@ -4349,12 +4354,12 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="-17.68" y="-55.22" size="1.27" layer="50">THICKNESS TOLERANCE:</text>
 <wire x1="24.23" y1="-48.87" x2="24.23" y2="-52.68" width="0.2" layer="50"/>
 <text x="53.44" y="-51.41" size="1.27" layer="50">+/- .127mm</text>
-<text x="-130.22" y="-62.54" size="1.778" layer="50">60 East 11th Street</text>
-<text x="-130.22" y="-58.54" size="3" layer="50">littleBits, Inc.</text>
-<text x="-130.22" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
-<text x="-130.22" y="-66.54" size="1.778" layer="50">New York, NY, 10003, USA</text>
-<wire x1="-147.22" y1="-51.54" x2="-91.22" y2="-51.54" width="0.2" layer="50"/>
-<wire x1="-91.22" y1="-51.54" x2="-91.22" y2="-75.54" width="0.2" layer="50"/>
+<text x="-137.84" y="-62.54" size="1.778" layer="50">601 West 26th Street</text>
+<text x="-145.46" y="-58.54" size="2.1844" layer="50">littleBits Electronics, Inc.</text>
+<text x="-137.84" y="-70.54" size="1.778" layer="50">phone: 917-464-4577</text>
+<text x="-141.65" y="-66.54" size="1.778" layer="50">New York, NY, 10001, USA</text>
+<wire x1="-147.22" y1="-51.54" x2="-97.57" y2="-51.54" width="0.2" layer="50"/>
+<wire x1="-97.57" y1="-51.54" x2="-97.57" y2="-75.54" width="0.2" layer="50"/>
 <text x="-12.6" y="-43.79" size="1.27" layer="50">&gt;DRAWING_NAME</text>
 <wire x1="-18.95" y1="-64.11" x2="20.46" y2="-64.11" width="0.2" layer="50"/>
 <wire x1="-18.95" y1="-60.3" x2="20.46" y2="-60.3" width="0.2" layer="50"/>
@@ -4372,11 +4377,12 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </packages>
 <symbols>
 <symbol name="OSHWCREDIT-KORG">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
 <text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="2.54" y="-2.54" size="1.778" layer="97">littleBits, littleBits logo, Bits, cloudBit, are</text>
+<text x="2.54" y="-5.08" size="1.778" layer="95">trademarks of littleBits Electronics Inc.</text>
 </symbol>
 <symbol name="LETTER_L">
 <wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
@@ -4963,7 +4969,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instances>
 <instance part="W19JP1" gate="G$1" x="109.22" y="106.68" rot="MR180"/>
 <instance part="U$3" gate="G$1" x="134.62" y="10.16"/>
-<instance part="U$4" gate="G$1" x="43.18" y="12.7"/>
+<instance part="U$4" gate="G$1" x="30.48" y="12.7"/>
 <instance part="W19BSF1" gate="G$1" x="124.46" y="101.6"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>

@@ -85,7 +85,9 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="LB_TEXT" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -4157,9 +4159,10 @@
 <package name="OSHWCREDIT-KORG">
 <text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
 <text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
-<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
-<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
-<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<text x="-17.78" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="-17.78" y="3.175" size="1.27" layer="50">littleBits, littleBits logo, Bits, cloudBit, are</text>
+<text x="-17.78" y="1.27" size="1.27" layer="50">trademarks of littleBits Electronics Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -4303,11 +4306,12 @@
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="OSHWCREDIT-KORG">
-<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
-<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License, Version 1.2</text>
 <text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
 <text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
-<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="2.54" y="-2.54" size="1.778" layer="97">littleBits, littleBits logo, Bits, cloudBit, are</text>
+<text x="2.54" y="-5.08" size="1.778" layer="95">trademarks of littleBits Electronics Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5127,7 +5131,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <instance part="GND7" gate="1" x="129.54" y="96.52"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="50.8" y="5.08"/>
+<instance part="U$1" gate="G$1" x="35.56" y="12.7"/>
 </instances>
 <busses>
 </busses>

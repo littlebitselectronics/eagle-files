@@ -1025,13 +1025,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="RES-0402">
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -1073,6 +1066,13 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -4854,11 +4854,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </polygon>
 </symbol>
 <symbol name="OSHWCREDIT-KORG">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
+<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6612,14 +6612,14 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </instance>
 <instance part="GND8" gate="1" x="43.18" y="5.08"/>
 <instance part="GND18" gate="1" x="187.96" y="78.74"/>
-<instance part="U$1" gate="G$1" x="236.22" y="50.8"/>
+<instance part="U$1" gate="G$1" x="20.32" y="12.7"/>
 <instance part="I30TVS3" gate="G$1" x="215.9" y="144.78" smashed="yes">
 <attribute name="NAME" x="212.8774" y="134.62" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="220.7514" y="129.54" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND19" gate="1" x="215.9" y="134.62"/>
 <instance part="GND20" gate="1" x="55.88" y="58.42"/>
-<instance part="U$2" gate="G$1" x="152.4" y="45.72"/>
+<instance part="U$2" gate="G$1" x="149.86" y="43.18"/>
 </instances>
 <busses>
 </busses>

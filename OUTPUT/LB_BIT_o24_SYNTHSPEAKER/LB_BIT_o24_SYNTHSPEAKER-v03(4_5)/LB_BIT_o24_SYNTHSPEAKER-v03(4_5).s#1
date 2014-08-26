@@ -6158,7 +6158,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <attribute name="NAME" x="70.104" y="86.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.644" y="84.201" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="55.88" y="5.08"/>
+<instance part="U$1" gate="G$1" x="25.4" y="7.62"/>
 </instances>
 <busses>
 </busses>

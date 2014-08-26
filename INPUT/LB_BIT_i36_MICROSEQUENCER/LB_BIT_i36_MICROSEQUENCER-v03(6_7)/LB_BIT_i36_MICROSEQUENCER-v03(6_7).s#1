@@ -774,13 +774,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-3.81" y="-6.35" size="0.8128" layer="25">&gt;Name</text>
 <text x="-3.81" y="-7.62" size="0.8128" layer="27">&gt;Value</text>
 </package>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="50">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
@@ -964,6 +957,13 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="22.96" y="-66.65" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
+</package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -1194,13 +1194,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="OSHWCREDIT-KORG">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -4808,6 +4801,13 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="86.36" y1="5.08" x2="86.36" y2="25.4" width="0.254" layer="94"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
+<symbol name="OSHWCREDIT-KORG">
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
+<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LV321">
@@ -5298,18 +5298,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSHWCREDIT-KORG">
-<gates>
-<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
-</gates>
-<devices>
-<device name="" package="OSHWCREDIT-KORG">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="OSHW-LOGO">
 <description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
 <gates>
@@ -5340,6 +5328,18 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </gates>
 <devices>
 <device name="OHW" package="FABDWG01-OHW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSHWCREDIT-KORG">
+<gates>
+<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSHWCREDIT-KORG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6410,11 +6410,11 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="I36R17" library="LITTLEBITS" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="P+20" library="SparkFun" deviceset="VCC" device=""/>
 <part name="P+21" library="SparkFun" deviceset="VCC" device=""/>
-<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 <part name="U$2" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
 <part name="I36TVS3" library="LITTLEBITS" deviceset="DIODE-TVS" device="SOD-923" value="ESD9B5.0ST5G"/>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$3" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6571,7 +6571,6 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="I36R17" gate="G$1" x="114.3" y="60.96" rot="R270"/>
 <instance part="P+20" gate="1" x="114.3" y="66.04"/>
 <instance part="P+21" gate="1" x="129.54" y="66.04"/>
-<instance part="U$1" gate="G$1" x="152.4" y="48.26"/>
 <instance part="U$2" gate="G$1" x="236.22" y="50.8"/>
 <instance part="I36TVS3" gate="G$1" x="172.72" y="132.08" smashed="yes">
 <attribute name="NAME" x="169.6974" y="121.92" size="1.778" layer="95" rot="R90"/>
@@ -6580,6 +6579,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND27" gate="1" x="172.72" y="121.92"/>
 <instance part="U$3" gate="G$1" x="0" y="0"/>
 <instance part="U$3" gate="G$2" x="147.32" y="0"/>
+<instance part="U$1" gate="G$1" x="139.7" y="48.26"/>
 </instances>
 <busses>
 </busses>

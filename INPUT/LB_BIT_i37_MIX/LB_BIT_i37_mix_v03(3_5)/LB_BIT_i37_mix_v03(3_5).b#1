@@ -309,13 +309,6 @@
 <libraries>
 <library name="LITTLEBITS">
 <packages>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
@@ -544,6 +537,13 @@
 <text x="22.96" y="-66.65" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
+</package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
 </package>
 </packages>
 </library>
@@ -1277,7 +1277,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="LITTLEBITS" package="OSHWCREDIT-KORG" value="OSHWCREDIT-KORG" x="-50.9" y="-75.25"/>
 <element name="U$19" library="SparkFun_NEW" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="-24.5" y="-71.59"/>
 <element name="I37BSF1" library="bitSnap" package="BITSNAP_V03_FEMALE" value="BITSNAP_V03_FEMALE" x="3.75" y="0"/>
 <element name="I37U3" library="LITTLEBITS" package="SOT23-5" value="LV321SOT23-5" x="2.5" y="28.9" smashed="yes" rot="MR180">
@@ -1597,6 +1596,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$5" library="LITTLEBITS" package="LB_PWR_LEGS" value="" x="0" y="34.7" locked="yes"/>
 <element name="U$2" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="0" y="0"/>
+<element name="U$1" library="LITTLEBITS" package="OSHWCREDIT-KORG" value="OSHWCREDIT-KORG" x="-66.4" y="-76.05"/>
 </elements>
 <signals>
 <signal name="GND">

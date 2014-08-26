@@ -190,13 +190,6 @@
 </library>
 <library name="LITTLEBITS">
 <packages>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="SC70-5">
 <wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.127" layer="51"/>
@@ -648,15 +641,15 @@
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
+</package>
 </packages>
 <symbols>
-<symbol name="OSHWCREDIT-KORG">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
-</symbol>
 <symbol name="OPAMP">
 <wire x1="-3.81" y1="3.175" x2="-3.81" y2="1.905" width="0.1524" layer="94"/>
 <wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="94"/>
@@ -820,20 +813,15 @@
 <wire x1="86.36" y1="5.08" x2="86.36" y2="25.4" width="0.254" layer="94"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
+<symbol name="OSHWCREDIT-KORG">
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
+<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="OSHWCREDIT-KORG">
-<gates>
-<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
-</gates>
-<devices>
-<device name="" package="OSHWCREDIT-KORG">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LV321">
 <gates>
 <gate name="G$1" symbol="OPAMP" x="5.08" y="5.08"/>
@@ -1161,6 +1149,18 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </gates>
 <devices>
 <device name="OHW" package="FABDWG01-OHW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSHWCREDIT-KORG">
+<gates>
+<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSHWCREDIT-KORG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5358,7 +5358,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </class>
 </classes>
 <parts>
-<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 <part name="U$19" library="SparkFun_NEW" deviceset="OSHW-LOGO" device="L"/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
@@ -5530,6 +5529,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="I37JP1" library="LITTLEBITS" deviceset="MA03-1" device="SMD" value="INPUT1"/>
 <part name="I37JP2" library="LITTLEBITS" deviceset="MA03-1" device="SMD" value="INPUT2"/>
 <part name="U$2" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5537,7 +5537,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="238.76" y="10.16" size="6.4516" layer="97" font="vector">3</text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="38.1" y="10.16"/>
 <instance part="U$19" gate="G$1" x="134.62" y="10.16"/>
 <instance part="P+1" gate="1" x="27.94" y="111.76"/>
 <instance part="GND1" gate="1" x="27.94" y="86.36"/>
@@ -5663,6 +5662,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="I37JP2" gate="G$1" x="17.78" y="104.14" rot="MR180"/>
 <instance part="U$2" gate="G$1" x="0" y="0"/>
 <instance part="U$2" gate="G$2" x="147.32" y="0"/>
+<instance part="U$1" gate="G$1" x="55.88" y="2.54"/>
 </instances>
 <busses>
 </busses>

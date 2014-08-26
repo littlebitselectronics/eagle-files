@@ -548,13 +548,6 @@
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="FABDWG01-OHW">
 <wire x1="-147.22" y1="68.46" x2="-147.22" y2="-51.54" width="0.2" layer="50"/>
 <wire x1="-147.22" y1="-51.54" x2="-147.22" y2="-75.54" width="0.2" layer="50"/>
@@ -627,6 +620,13 @@
 <text x="22.96" y="-66.65" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
+</package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
 </package>
 </packages>
 </library>
@@ -2080,8 +2080,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.011" y="32.238" size="0.4064" layer="26" font="vector" rot="MR180"/>
 <attribute name="VALUE" x="16.084" y="31.743" size="0.4064" layer="28" font="vector" rot="MR180"/>
 </element>
-<element name="U$1" library="LITTLEBITS" package="OSHWCREDIT-KORG" value="OSHWCREDIT-KORG" x="-63.6" y="-69.65"/>
 <element name="U$2" library="LITTLEBITS" package="FABDWG01-OHW" value="FRAME-LETTER-OHWOHW" x="0" y="0"/>
+<element name="U$4" library="LITTLEBITS" package="OSHWCREDIT-KORG" value="OSHWCREDIT-KORG" x="-72.6" y="-70.55"/>
 </elements>
 <signals>
 <signal name="GND">

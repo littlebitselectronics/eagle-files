@@ -452,13 +452,6 @@
 <rectangle x1="2.921" y1="3.7338" x2="3.429" y2="3.8608" layer="21"/>
 <rectangle x1="4.191" y1="3.7338" x2="4.699" y2="3.8608" layer="21"/>
 </package>
-<package name="OSHWCREDIT-KORG">
-<text x="-29.21" y="13.97" size="1.27" layer="50">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="-17.78" y="12.065" size="1.27" layer="50">http://creativecommons.org/license/by-sa/3.0</text>
-<text x="-20.32" y="10.16" size="1.27" layer="50">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="-14.605" y="8.255" size="1.27" layer="50">http://freedomdefined.org/OSHW</text>
-<text x="-19.05" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
-</package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="50">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
@@ -685,6 +678,13 @@
 <text x="22.96" y="-62.84" size="1.27" layer="50">DATE:</text>
 <text x="22.96" y="-70.46" size="1.27" layer="50">DATE:</text>
 </package>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -795,13 +795,6 @@
 <pin name="LPF1-IN" x="30.48" y="27.94" length="middle" rot="R180"/>
 <text x="10.16" y="-11.43" size="1.778" layer="95" rot="R180">PT2399</text>
 <text x="10.16" y="34.29" size="1.778" layer="96" rot="R180">&gt;NAME</text>
-</symbol>
-<symbol name="OSHWCREDIT-KORG">
-<text x="0" y="7.62" size="1.778" layer="97">And Open Source Hardware (OSHW) Definition 1.0</text>
-<text x="7.62" y="5.08" size="1.778" layer="97">http://freedomdefined.org/OSHW</text>
-<text x="-12.7" y="12.7" size="1.778" layer="97">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="2.54" y="10.16" size="1.778" layer="97">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="2.54" y="2.54" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
 </symbol>
 <symbol name="OSHW-LOGO">
 <rectangle x1="-9.5059" y1="-9.0106" x2="-9.4043" y2="-8.9979" layer="94"/>
@@ -4409,6 +4402,13 @@
 <wire x1="86.36" y1="5.08" x2="86.36" y2="25.4" width="0.254" layer="94"/>
 <wire x1="40.64" y1="25.4" x2="40.64" y2="5.08" width="0.254" layer="94"/>
 </symbol>
+<symbol name="OSHWCREDIT-KORG">
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
+<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LV321">
@@ -4679,18 +4679,6 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSHWCREDIT-KORG">
-<gates>
-<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
-</gates>
-<devices>
-<device name="" package="OSHWCREDIT-KORG">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="OSHW-LOGO">
 <description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
 <gates>
@@ -4721,6 +4709,18 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </gates>
 <devices>
 <device name="OHW" package="FABDWG01-OHW">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OSHWCREDIT-KORG">
+<gates>
+<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
+</gates>
+<devices>
+<device name="" package="OSHWCREDIT-KORG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5738,10 +5738,10 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <part name="I35C5" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="0.1uF"/>
 <part name="I35R4" library="LITTLEBITS" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device=""/>
-<part name="U$2" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 <part name="U$3" library="LITTLEBITS" deviceset="OSHW-LOGO" device="L"/>
 <part name="I35C4" library="LITTLEBITS" deviceset="CAP" device="CAP-0603" value="10uF"/>
 <part name="U$1" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
+<part name="U$2" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5841,11 +5841,11 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <instance part="I35C5" gate="G$1" x="20.32" y="88.9"/>
 <instance part="I35R4" gate="G$1" x="12.7" y="106.68" rot="R270"/>
 <instance part="P+7" gate="1" x="12.7" y="114.3"/>
-<instance part="U$2" gate="G$1" x="35.56" y="12.7"/>
 <instance part="U$3" gate="G$1" x="132.08" y="12.7"/>
 <instance part="I35C4" gate="G$1" x="12.7" y="88.9" rot="MR0"/>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
 <instance part="U$1" gate="G$2" x="147.32" y="0"/>
+<instance part="U$2" gate="G$1" x="27.94" y="7.62"/>
 </instances>
 <busses>
 </busses>

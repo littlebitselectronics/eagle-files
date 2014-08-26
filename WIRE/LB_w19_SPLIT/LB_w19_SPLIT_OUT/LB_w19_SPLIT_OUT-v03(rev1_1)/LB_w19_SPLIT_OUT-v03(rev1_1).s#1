@@ -4968,7 +4968,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="W19BSF1" gate="G$1" x="124.46" y="101.6"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="63.5" y="5.08"/>
+<instance part="U$1" gate="G$1" x="33.02" y="10.16"/>
 </instances>
 <busses>
 </busses>

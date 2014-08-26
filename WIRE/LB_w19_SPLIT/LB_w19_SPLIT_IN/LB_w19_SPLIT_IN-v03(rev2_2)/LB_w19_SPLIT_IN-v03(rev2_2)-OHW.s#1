@@ -4154,12 +4154,12 @@
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="OSHWCREDIT">
-<text x="17.78" y="-1.27" size="1.27" layer="50">Designed by: littleBits.cc</text>
-<text x="1.27" y="1.27" size="1.27" layer="50">littleBits Electronics, Inc. supports the Open Source Hardware
-Statement of Principles by making the circuit designs for its 
-modules available pursuant to the CERN Hardware License, 
-Version 1.2</text>
+<package name="OSHWCREDIT-KORG">
+<text x="-17.78" y="13.97" size="1.27" layer="50">littleBits Electronics, Inc. supports the open source Hardware</text>
+<text x="-17.78" y="12.065" size="1.27" layer="50">statement of Principles by making the circuit design for its</text>
+<text x="-17.78" y="10.16" size="1.27" layer="50">modules available pursuant to the CERN Hardware License,</text>
+<text x="-17.145" y="8.255" size="1.27" layer="50">Version 1.2</text>
+<text x="-7.62" y="6.35" size="1.27" layer="50">Designed by: littleBits.cc and Korg Inc.</text>
 </package>
 </packages>
 <symbols>
@@ -4302,11 +4302,12 @@ Version 1.2</text>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="OSHWCREDIT">
-<text x="12.7" y="1.524" size="1.778" layer="97">Designed by: littleBits.cc</text>
-<text x="0" y="5.08" size="1.27" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware 
-Statement of Principles by making the circuit designs for its
-modules available pursuant to the CERN Hardware License, Version 1.2</text>
+<symbol name="OSHWCREDIT-KORG">
+<text x="2.54" y="7.62" size="1.778" layer="97">modules available pursuant to the CERN Hardware License,</text>
+<text x="2.54" y="5.08" size="1.778" layer="97">Version 1.2</text>
+<text x="2.54" y="12.7" size="1.778" layer="97">littleBits Electronics, Inc. supports the Open Source Hardware</text>
+<text x="2.54" y="10.16" size="1.778" layer="97">Statement of Principles by making the circuit designs for its</text>
+<text x="15.24" y="0" size="1.778" layer="97">Designed by: littleBits.cc and Korg Inc.</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4578,12 +4579,12 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSHWCREDIT">
+<deviceset name="OSHWCREDIT-KORG">
 <gates>
-<gate name="G$1" symbol="OSHWCREDIT" x="-12.7" y="-2.54"/>
+<gate name="G$1" symbol="OSHWCREDIT-KORG" x="-30.48" y="0"/>
 </gates>
 <devices>
-<device name="" package="OSHWCREDIT">
+<device name="" package="OSHWCREDIT-KORG">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5092,7 +5093,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <part name="GND6" library="LITTLEBITS" deviceset="GND" device=""/>
 <part name="GND7" library="LITTLEBITS" deviceset="GND" device=""/>
 <part name="FRAME1" library="LITTLEBITS" deviceset="FRAME-LETTER-OHW" device="OHW"/>
-<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT" device=""/>
+<part name="U$1" library="LITTLEBITS" deviceset="OSHWCREDIT-KORG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5126,7 +5127,7 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 <instance part="GND7" gate="1" x="129.54" y="96.52"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="U$1" gate="G$1" x="71.12" y="5.08"/>
+<instance part="U$1" gate="G$1" x="50.8" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -5246,10 +5247,4 @@ Device conducts in avalanche mode after reaching a part dependent voltage thresh
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
